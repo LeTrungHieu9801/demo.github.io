@@ -2,7 +2,7 @@
 
 const type = document.querySelector('.type-text');
 
-let listTexts = ['Music Distribution', 'Label Manager', 'Youtube MCN', 'Crypto ventures' , ' Real estate' ,'Dedicated server'];
+let listTexts = ['Music Distribution', 'Label Manager', 'Youtube MCN', 'Crypto Ventures' , ' Real Estate' ,'Dedicated Server'];
 let listTexts2 = ['Dedicated server rental'];
 let index = -1;
 let current = 0;
