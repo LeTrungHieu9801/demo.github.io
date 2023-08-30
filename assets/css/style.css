@@ -1916,7 +1916,7 @@ footer {
   text-align: center;
   padding: 60px 12px;
   color: #fff;
-  background-color: #7b511a;
+  background-color: #7b511a !important;
 }
 
 #footer .copyright {
@@ -2717,6 +2717,15 @@ icons
     margin: 0px !important;
   }
   
+  .text_service
+  {
+    margin: 0px !important;
+  }
+
+  .container, .container-md, .container-sm
+  {
+    max-width: 811px;
+  }
   .hero .row:first-child
   {
     display: flex;
