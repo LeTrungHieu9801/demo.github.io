@@ -515,7 +515,7 @@ ul[role="list"]>li {
 
 
 .text_service {
-  font-size: 69px;
+  font-size: 73px;
   font-weight: 600;
   line-height: 1.1em;
   font-family: Graphik, sans-serif;
@@ -1911,9 +1911,12 @@ section {
 }
 
 footer {
-  background-color: rgb(var(--bs-tertiary-bg-rgb), 1);
   text-align: center;
   padding: 60px 12px;
+  text-align: center;
+  padding: 60px 12px;
+  color: #fff;
+  background-color: #7b511a;
 }
 
 #footer .copyright {
