@@ -64,7 +64,7 @@ ul[role="list"]>li {
 }
 
 .justify {
-  text-align: center !important;
+  text-align: justify !important;
 }
 
 .row {
@@ -145,7 +145,7 @@ ul[role="list"]>li {
 .btn,
 .btn:link,
 .btn:visited {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: inline-block;
@@ -256,14 +256,16 @@ ul[role="list"]>li {
   background:
     linear-gradient(#0e0e0e 0 0) padding-box,
     /*this is your grey background*/
-    linear-gradient(115deg, #76b8ff 22.45%, #faef59 45.14%, #f9892efa 73%);
+    linear-gradient(#0e0e0e 0 0) padding-box,
+    /*this is your grey background*/
+    linear-gradient(115deg, #936f00 22.45%, #faef59 45.14%, #f9892e 73%);
   width: 16rem;
   height: 40vh;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 20px;
   padding-right: 20px;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   box-shadow: 0 6px 10px #212121;
   border-radius: 10px;
   text-align: center;
@@ -2161,7 +2163,7 @@ ul[class^=ring] li {
 }
 
 ul[class^=ring] {
-  border: dashed 1px rgba(235, 166, 61, 0.452);
+  border: dashed 1px #8c7b6075;
   position: relative;
   padding: 0;
   border-radius: 50%;
@@ -2528,14 +2530,14 @@ icons
 
 .time_now {
   bottom: 11px;
-  left: 10px;
+  left: 25px;
   margin-bottom: 30px;
 }
 
 .time_full {
   bottom: 11px;
-  right: 10px;
-  margin-bottom: 30px;
+  right: 25px;
+  margin-bottom: 30px
 }
 
 .playing {
@@ -2789,7 +2791,7 @@ icons
   padding-bottom: 25px;
   padding-left: 20px;
   padding-right: 20px; */
-  border: 3px solid rgba(253, 124, 38, 0.938);
+  border: 1px solid rgba(253, 124, 38, 0.938);
   box-shadow: 0 6px 10px #3b3b3b;
   border-radius: 10px;
   text-align: center;
