@@ -21,6 +21,15 @@ body {
   --bs-primary1: #f9892e !important;
 }
 
+.Text_logo
+{
+  line-height: 40px; color:white; margin: 3px 0px 0px 3px; font-size: 20px;
+}
+
+.Text_logo:hover
+{
+  color: var(--bs-primary1);
+}
 .video-container {
   position: relative;
   height: 100vh;
@@ -2867,7 +2876,9 @@ icons
   background:
     linear-gradient(#0d0d0d 0 0) padding-box,
     /*this is your grey background*/
-    linear-gradient(115deg, #76b8ff 22.45%, #f086f2 45.14%, #fac37b 73%);
+    linear-gradient(#0d0d0d 0 0) padding-box,
+    /*this is your grey background*/
+    linear-gradient(115deg, #eec230 22.45%, #ee720c 45.14%, #f79618 73%);
   transition: all 0.3s ease;
 }
 
