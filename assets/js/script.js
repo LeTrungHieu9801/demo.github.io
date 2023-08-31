@@ -1,12 +1,12 @@
 //(function(){
 	var AMOUNT=200, d=25, R=200, adjustment=true, adaptive=true,
 		obliquity=23/180*3.14, roV1=.0022, roV2=-.0005, ro1=0, ro2=0,
-		canvas='#earth', color='#f9892e', fogC='#722779', T_earth='https://mapplix.github.io/earth/earth.png';
+		canvas='#earth', color='#f9892e', fogC='#f9892e', T_earth='https://mapplix.github.io/earth/earth.png';
 
 	var camera, scene, renderer;
 
 	var positions=[], particles, particle, count = 0, dpr, lastW,
-	W=700, H=700, aspect=W / H, vMin=Math.min(W,H);
+	W=400, H=400, aspect=W / H, vMin=Math.min(W,H);
 
 	var mouseX = 0, mouseY = 0, x0, y0;
 	var lookAt=new THREE.Vector3(0, 0, 0), canvas=document.querySelector(canvas); 

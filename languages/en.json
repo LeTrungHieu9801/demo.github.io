@@ -1,0 +1,115 @@
+{
+    "header": {
+        "home": "Home",
+        "Services" : "Services",
+        "Distribution": "Distribution",
+        "YoutubeMCN": "Youtube MCN",
+        "CryptoVentures": "Crypto Ventures",
+        "DedicatedServerRental": "Dedicated Server Rental",
+        "RealEstate": "Real estate",
+        "OurTeam": "Our team",
+        "WhyUs": "Why us",
+        "ContactUs": "Contact Us"
+    },
+    "title": {
+        "MusicDistribution": "Music distribution",
+        "OurApproach": "Our Approach",
+        "JoinNow": "Join now",
+        "OurWork": "Our Work ",
+        "FeaturedArtists": "Featured artists",
+        "YoutubeMCN": "Youtube MCN",
+        "Benefits": "Benefits of Xnight MCN",
+        "GetStarted": "Get Started",
+        "CryptoVentures": "Crypto ventures",
+        "WhyUs": "Why Us",
+        "Contact": "Contact Us",
+        "700": "More than 700 trusted business partners",
+        "ContactNow": " Contact Now",
+        "SendMessage": "Send Message"
+    },
+    "MusicDistribution": {
+        "Music": "Music",
+        "distribution": "distribution",
+        "desc": "Regardless of your career level, Xnight Group helps you. Sell your music worldwide, in stores like Spotify, Tidal, or Apple Music. Create a free account, upload the necessary files, and select the platforms where your music will be distributed. Automatic processes for revenue collecting data are used for your downloads and streams of profits. You keep 100% of the rights to your music, and we do not charge a fee for it."
+    },
+    "OurApproach": {
+        "desc": "Our approach focuses on delivering a better user experience for customers by addressing different music environments. We achieve this through our three-phase process.",
+        "copyrights": "01. We check music copyrights",
+        "worldwide": "02. Build your legacy worldwide",
+        "partners": "03. Our partners",
+        "descCopyrights": "We will check music copyright on different platforms to help you make sure you are using the music legally.",
+        "descWorldwide": "We deliver not only to the largest music platforms and stores in Europe and America, but we also provide distribution to DSPs in Asia. ",
+        "descPartners": "We distribute your music to every download and streaming portal on the planet. This way, we guarantee that your fans can find your songs all over the world. "
+    },
+    "RealEstate": {
+        "Real": "Real",
+        "Estate": "Estate",
+        "name1": "Buy property",
+        "desc1": "If you’re looking for your ideal home, Xnight Group is the best place to find the latest resale properties with our user-friendly database of properties for sale such as HDB Resale, Executive Condos, Condos and Houses for Sale. If you are looking for freehold properties, browse our Freehold Properties for Sale for all your needs!",
+        "name2": "Property rentals",
+        "desc2": "Dive into the latest rental properties with our comprehensive rental properties library where you can find the latest HDBs for Rent, Executive Condos for Rent, Houses for Rent, Condos for Rent. If you’re looking for a room for rent instead, take a look at our Room Rental page for the latest rooms for rent.",
+        "name3": "New Launch condos",
+        "desc3": "In our New Launch section, you can find the latest New Launch projects and properties available in Singapore. If you're looking for projects by their TOP date, browse the new launches that TOP 2022 up to TOP 2028, whereas if you're looking for a more general search, use New Launch Condos for Sale to filter between all new launch projects in Viet Nam."
+    },
+    "OurWork": {
+        "desc": "We distribute your music to every download and streaming portal on the planet. This way, we guarantee that your fans can find your songs all over the world. We work with over 150 download and streaming partners, so your music will be available to fans in every corner of the globe.",
+        "Labels": "300+ labels",
+        "LabelManager": "Label Manager",
+        "OurArtists": "Our Artists",
+        "Artists": "We have 5000+ artists",
+        "MusicStream": "Music Stream",
+        "50MillionsPer": "50 millions per month",
+        "Stream": "100 millions per month",
+        "TikTokMusic": "TikTok Music"
+    },
+    "YoutubeMCN": {
+        "title": " Your YouTube Potential with Our Premium MCN Services!",
+        "desc": "Are you a passionate content creator looking to take your YouTube channel to the next level? Look no further! At Xnight Group, we're dedicated to elevating your YouTube experience and helping you achieve unprecedented success. "
+    },
+    "Benefits": {
+        
+        "Elevate": "Elevate Your Content",
+        "descElevate": "Our MCN (Multi-Channel Network) services are tailor-made to empower creators like you. We provide invaluable resources, personalized guidance, and cutting-edge tools that will enhance the quality and appeal of your content.",
+        "Monetization": "Monetization Mastery",
+        "descMonetization": "Monetizing your YouTube channel can be challenging, but with our expertise, it becomes a breeze. We offer strategic insights, optimized ad revenue, and sponsorship opportunities that will turn your passion into a lucrative venture.",
+        "Amplify": "Amplify Your Reach",
+        "descAmplify": "Expanding your audience is crucial, and we've got you covered. Our MCN fosters collaboration and cross-promotion among our talented creators, ensuring your content reaches a wider, engaged audience."
+    },
+    "CryptoVentures": {
+        "Crypto": "Crypto",
+        "Ventures": "Ventures",
+        "Learn": "Learn more",
+        "title": "Unlock Investment Opportunities with Us - Elevate Your Stock Trading Success! ",
+        "desc": "Have you ever dreamed of achieving success in the stock market but constantly faced challenging obstacles? Let us help you turn your dreams into reality! At Xnight Group, we take pride in being your trusted partner on your investment journey. "
+    },
+    "WhyUs": {
+        "why": "Why",
+        "us": "Us",
+        "desc1": "With a 24/7 active team , we are ready to support you and to solve any type of problem or answer any question.",
+        "desc2": "At Xnight Group, we don't just specialize in one field - we excel in multiple industries. From YouTube MCN to crypto and music distribution, our diverse expertise equips us to guide you through a range of exciting opportunities."
+    },
+    "Dedicated": {
+        "dedicated": "Dedicated",
+        "server": "server rental pricing",
+        "title": "Dedicated server rental pricing",
+        "name1": "High speed & Stability",
+        "desc1": "Powerful servers with high-speed line managed by teachnican support team over 16 years experience",
+        "name2": "Management & Monitor",
+        "desc2": "Customers can track the amount of monthly bandwidth usage, and timely notification of incidents to have a reasonable plan to prepare upgradation",
+        "name3": "High Security",
+        "desc3": "Monitoring system work 24/7, dedicated firewall systems limit unauthorized access",
+        "name4": "24/7 Technical Supports",
+        "desc4": "We are top hosting provider with over 16 year experience, our team are always here to assist via email, livechat, and telephone"
+        
+    },
+    "recommend":{
+        "title": "Hear From Our Customers",
+        "desc": "Mr. Nam and Mr. Rooney have witnessed growth in both customer numbers and revenue by utilizing services provided by Xnight Group. What about you?",
+        "name1": "Littleton - General Director",
+        "desc1": "\"  Xnight Group is an accommodating and attentive partner. Flexible and reliable, the team is quick to adapt to the client's working style and is able to scale as needed. They go above and beyond to deliver on their promises and provide valuable recommendations.\"",
+        "name2": "Littleton - General Director",
+        "desc2": "\"Xinght Group’ team successfully meets their requirements and deliverables. Their collaborative approach and high-quality talents have earned positive feedback from the client; their understanding of the project has been impressive. Additionally, they are prompt, responsive, and flexible. \"",
+        "name3": "Koji Kuroda - General Director",
+        "desc3": "\"Xinght Group’ team successfully meets their requirements and deliverables. Their collaborative approach and high-quality talents have earned positive feedback from the client; their understanding of the project has been impressive. Additionally, they are prompt, responsive, and flexible. \""
+    }
+}

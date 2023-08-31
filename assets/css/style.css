@@ -21,6 +21,21 @@ body {
   --bs-primary1: #f9892e !important;
 }
 
+.video-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+
 .highlight,
 .unlimited.animated .number {
     color: var(--bs-primary1);
@@ -284,7 +299,7 @@ ul[role="list"]>li {
   background:
     linear-gradient(#0d0d0d 0 0) padding-box,
     /*this is your grey background*/
-    linear-gradient(115deg, #76b8ff 22.45%, #f086f2 45.14%, #fac37b 73%);
+    linear-gradient(115deg, #eec230 22.45%, #ee720c 45.14%, #f79618 73%);
   /* transition: all 0.3s ease; */
 }
 
@@ -515,7 +530,7 @@ ul[role="list"]>li {
 
 
 .text_service {
-  font-size: 73px;
+  font-size: 80px;
   font-weight: 600;
   line-height: 1.1em;
   font-family: Graphik, sans-serif;
@@ -654,7 +669,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   /* background: #020a20; */
-  backdrop-filter: blur(20px) brightness(0.8);
+  backdrop-filter: blur(20px) brightness(0.4);
   padding: 30px 0px;
 }
 
@@ -683,6 +698,10 @@ h6 {
   #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
+  }
+  .video-container 
+  {
+    height: 30vh;
   }
 }
 
@@ -1263,7 +1282,7 @@ h6 {
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 .text_gradient {
-  background: linear-gradient(115deg, #76b8ff 22.45%, #f086f2 45.14%, #fac37b 73%);
+  background:linear-gradient(312deg, #e39939 22.45%, #f9892e 45.14%, #f9892e 73%);
   -webkit-background-clip: text;
   /* font-weight: 800; */
   -webkit-text-fill-color: transparent;
@@ -2778,6 +2797,7 @@ icons
   justify-content: center;
   align-items: center;
   margin: auto;
+  border-radius: 10px;
 }
 
 .user-picture {
@@ -2861,9 +2881,11 @@ icons
 .name-client {
   margin: 0;
   margin-top: 5px;
-  padding-bottom: 40px;
   font-weight: 600;
   font-size: 18px;
+}
+.name-client span {
+padding: 5px 0px;
 }
 
 .name-client span {
@@ -3032,13 +3054,6 @@ icons
 
   .hero-container>.row>.col-lg-7>.row {
     margin: 0px !important;
-  }
-
-  .text_service {
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 1.1em;
-    font-family: Graphik, sans-serif;
   }
 
   section {

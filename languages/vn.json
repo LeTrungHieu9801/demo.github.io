@@ -1,0 +1,114 @@
+{
+    "header": {
+        "home": "Trang chủ",
+        "Services": "Dịch vụ",
+        "Distribution": "Phân phối",
+        "YoutubeMCN": "Youtube MCN",
+        "CryptoVentures": "Dự án Crypto",
+        "DedicatedServerRental": "Thuê máy chủ",
+        "RealEstate": "Bất động sản",
+        "OurTeam": "Đội ngũ",
+        "WhyUs": "Tại sao chọn chúng tôi",
+        "ContactUs": "Liên hệ với chúng tôi"
+    },
+    "title": {
+        "MusicDistribution": "Phân phối âm nhạc",
+        "OurApproach": "Phương pháp của chúng tôi",
+        "JoinNow": "Tham gia ",
+        "OurWork": "Công việc của chúng tôi",
+        "FeaturedArtists": "Nghệ sĩ nổi bật",
+        "YoutubeMCN": "Youtube MCN",
+        "Benefits": "Lợi ích từ Xnight MCN",
+        "GetStarted": "Bắt đầu",
+        "CryptoVentures": "Dự án Crypto",
+        "WhyUs": "Tại sao chọn chúng tôi",
+        "Contact": "Liên hệ với chúng tôi",
+        "700": "Hơn 700 đối tác kinh doanh đáng tin cậy",
+        "ContactNow": "Liên hệ ngay",
+        "SendMessage": "Gửi tin nhắn"
+    },
+    "MusicDistribution": {
+        "Music": "Phân phối",
+        "distribution": "âm nhạc",
+        "desc": "Bất kể cấp độ sự nghiệp của bạn, Xnight Group sẽ giúp bạn. Bán âm nhạc của bạn trên toàn cầu, trên các nền tảng như Spotify, Tidal hoặc Apple Music. Tạo tài khoản miễn phí, tải lên các tệp cần thiết và chọn các nền tảng mà âm nhạc của bạn sẽ được phân phối. Quy trình tự động thu thập dữ liệu doanh thu được sử dụng để theo dõi tải xuống và doanh thu từ việc phát nhạc của bạn. Bạn giữ lại 100% quyền âm nhạc của mình, và chúng tôi không tính phí cho nó."
+    },
+    "OurApproach": {
+        "desc": "Phương pháp của chúng tôi tập trung vào mang lại trải nghiệm người dùng tốt hơn cho khách hàng bằng cách giải quyết các môi trường âm nhạc khác nhau. Chúng tôi đạt được điều này thông qua quá trình ba giai đoạn của chúng tôi.",
+        "copyrights": "01. Chúng tôi kiểm tra quyền tác giả âm nhạc",
+        "worldwide": "02. Xây dựng tầm vóc của bạn trên toàn cầu",
+        "partners": "03. Đối tác của chúng tôi",
+        "descCopyrights": "Chúng tôi sẽ kiểm tra quyền tác giả âm nhạc trên các nền tảng khác nhau để giúp bạn đảm bảo bạn đang sử dụng âm nhạc một cách hợp pháp.",
+        "descWorldwide": "Chúng tôi cung cấp không chỉ cho các nền tảng và cửa hàng âm nhạc lớn nhất ở Châu Âu và Mỹ, mà chúng tôi còn cung cấp phân phối đến DSP ở Châu Á.",
+        "descPartners": "Chúng tôi phân phối âm nhạc của bạn đến mọi cổng tải xuống và phát sóng trên hành tinh. Điều này đảm bảo rằng người hâm mộ của bạn có thể tìm thấy bài hát của bạn trên khắp thế giới."
+    },
+    "OurWork": {
+        "desc": "Chúng tôi phân phối âm nhạc của bạn đến mọi cổng tải xuống và phát sóng trên hành tinh. Điều này đảm bảo rằng người hâm mộ của bạn có thể tìm thấy bài hát của bạn trên khắp thế giới. Chúng tôi làm việc với hơn 150 đối tác tải xuống và phát sóng, do đó âm nhạc của bạn sẽ có sẵn cho người hâm mộ ở mọi ngóc ngách của thế giới.",
+        "Labels": "Hơn 300 labels",
+        "LabelManager": "Quản lý label",
+        "OurArtists": "Nghệ sĩ của chúng tôi",
+        "Artists": "Chúng tôi có hơn 5000 nghệ sĩ",
+        "MusicStream": "Phát nhạc",
+        "50MillionsPer": "50 triệu lượt hàng tháng",
+        "Stream": "100 triệu lượt hàng tháng",
+        "TikTokMusic": "TikTok Music"
+    },
+    "YoutubeMCN": {
+        "title": " Tiềm năng YouTube của bạn với Dịch vụ MCN Premium của chúng tôi!",
+        "desc": "Bạn có phải là người tạo nội dung đam mê và muốn đưa kênh YouTube của bạn lên một tầm cao mới? Đừng tìm kiếm nữa! Tại Xnight Group, chúng tôi tận tâm nâng cao trải nghiệm YouTube của bạn và giúp bạn đạt được sự thành công chưa từng có."
+    },
+    "Benefits": {
+        "Elevate": "Nâng cao Nội dung của bạn",
+        "descElevate": "Dịch vụ MCN (Mạng Đa Kênh) của chúng tôi được tùy chỉnh để tạo điều kiện cho các người tạo nội dung như bạn. Chúng tôi cung cấp tài nguyên quý báu, hướng dẫn cá nhân và các công cụ tiên tiến sẽ nâng cao chất lượng và hấp dẫn của nội dung của bạn.",
+        "Monetization": "Thế mạnh về Kiếm tiền",
+        "descMonetization": "Kiếm tiền từ kênh YouTube của bạn có thể thách thức, nhưng với sự chuyên môn của chúng tôi, điều đó trở nên dễ dàng. Chúng tôi cung cấp thông tin chiến lược, thu nhập quảng cáo tối ưu hóa và cơ hội tài trợ sẽ biến niềm đam mê của bạn thành một dự án sinh lời.",
+        "Amplify": "Mở rộng Phạm vi của bạn",
+        "descAmplify": "Mở rộng khán giả của bạn là rất quan trọng, và chúng tôi sẽ giúp bạn. MCN của chúng tôi khuyến khích hợp tác và quảng bá chéo giữa các người tạo nội dung tài năng, đảm bảo nội dung của bạn tiếp cận một khán giả rộng hơn và đang tham gia."
+    },
+    "CryptoVentures": {
+        "Crypto": "Crypto",
+        "Ventures": "Ventures",
+        "Learn": "Tìm hiểu",
+        "title": "Khám phá Cơ hội Đầu tư cùng chúng tôi - Nâng cao Thành công Giao dịch Chứng khoán của bạn!",
+        "desc": "Bạn có bao giờ mơ về việc đạt được thành công trên thị trường chứng khoán nhưng liên tục đối mặt với những thách thức khó khăn? Hãy để chúng tôi giúp bạn biến ước mơ thành hiện thực! Tại Xnight Group, chúng tôi tự hào là đối tác đáng tin cậy trong hành trình đầu tư của bạn."
+    },
+    "WhyUs": {
+        "why": "Tại sao chọn",
+        "us": "chúng tôi",
+        "desc1": "Với đội ngũ hoạt động 24/7, chúng tôi sẵn sàng hỗ trợ bạn và giải quyết mọi vấn đề hoặc trả lời mọi câu hỏi.",
+        "desc2": "Tại Xnight Group, chúng tôi không chỉ chuyên về một lĩnh vực mà chúng tôi xuất sắc trong nhiều ngành. Từ YouTube, Tiktok MCN đến crypto và phân phối âm nhạc,... sự đa dạng về chuyên môn của chúng tôi, giúp chúng tôi hướng dẫn bạn qua nhiều cơ hội thú vị."
+    },
+    "RealEstate": {
+        "Real": "Bất ",
+        "Estate": " động sản",
+        "name1": "Mua bất động sản",
+        "desc1": "Nếu bạn đang tìm kiếm ngôi nhà lý tưởng của mình, Xnight Group là nơi tốt nhất để tìm các bất động sản mới nhất với cơ sở dữ liệu thân thiện với người dùng về các bất động sản đang bán như HDB Resale, Executive Condos, Condos và Houses for Sale. Nếu bạn đang tìm kiếm các bất động sản có thời hạn sở hữu lâu dài, hãy truy cập trang Bất động sản có thời hạn sở hữu lâu dài để tìm tất cả các nhu cầu của bạn!",
+        "name2": "Cho thuê bất động sản",
+        "desc2": "Tìm hiểu các bất động sản cho thuê mới nhất với thư viện bất động sản cho thuê toàn diện của chúng tôi, nơi bạn có thể tìm thấy các HDB cho thuê mới nhất, Executive Condos cho thuê, Houses cho thuê, Condos cho thuê. Nếu bạn đang tìm kiếm một phòng cho thuê, hãy xem trang Cho thuê phòng của chúng tôi để biết các phòng cho thuê mới nhất.",
+        "name3": "Căn hộ mới mở bán",
+        "desc3": "Trong phần Mới mở bán, bạn có thể tìm thấy các dự án và bất động sản Mới mở bán mới nhất có sẵn ở Singapore. Nếu bạn đang tìm kiếm các dự án theo ngày TOP, hãy duyệt qua các dự án mới mở bán từ TOP 2022 đến TOP 2028, trong khi nếu bạn đang tìm kiếm một tìm kiếm chung hơn, hãy sử dụng Căn hộ mới mở bán để lọc giữa tất cả các dự án mới mở bán ở Việt Nam."
+    },
+    "Dedicated": {
+        "dedicated": "Thuê",
+        "server": "máy chủ",
+        "title": "Giá cho thuê máy chủ riêng",
+        "name1": "Tốc độ cao và ổn định",
+        "desc1": "Máy chủ mạnh mẽ với đường truyền tốc độ cao được quản lý bởi đội ngũ hỗ trợ kỹ thuật có hơn 16 năm kinh nghiệm",
+        "name2": "Quản lý và Giám sát",
+        "desc2": "Khách hàng có thể theo dõi lượng sử dụng băng thông hàng tháng và thông báo kịp thời về sự cố để có kế hoạch hợp lý để nâng cấp",
+        "name3": "Bảo mật cao",
+        "desc3": "Hệ thống giám sát hoạt động 24/7, hệ thống tường lửa chuyên dụng giới hạn quyền truy cập trái phép",
+        "name4": "Hỗ trợ Kỹ thuật 24/7",
+        "desc4": "Chúng tôi là nhà cung cấp hosting hàng đầu với hơn 16 năm kinh nghiệm, đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ qua email, trò chuyện trực tiếp và điện thoại"
+        
+    },
+    "recommend": {
+        "title": "Phản hồi từ khách hàng",
+        "desc": "Ông Nam và ông Rooney đã thấy sự tăng trưởng về số lượng khách hàng và doanh thu bằng cách sử dụng các dịch vụ của Xnight Group. Còn bạn thì sao?",
+        "name1": "Littleton - Tổng Giám Đốc ",
+        "desc1": " \" Xnight Group là một đối tác linh hoạt và chu đáo. Đội ngũ linh hoạt và đáng tin cậy, họ nhanh chóng thích nghi với phong cách làm việc của khách hàng và có khả năng mở rộng khi cần. Họ vượt qua và cung cấp những điều hứa hẹn và đưa ra các đề xuất có giá trị. \" ",
+        "name2": "Agazeta - Tổng Giám Đốc ",
+        "desc2": " \" Xnight Group đã hợp tác một cách rất tích cực trong suốt quá trình phát triển. Họ đã tuân theo các thời hạn đã được định trước. Tổng quan, khách hàng đánh giá cao tính chuyên nghiệp, trực tiếp và tập trung vào mục tiêu của họ, luôn đảm bảo tính đúng hẹn và chất lượng cao \"",
+        "name3": "Koji Kuroda - Tổng Giám Đốc ",
+        "desc3": " \" Đội ngũ của Xinght Group đáp ứng thành công các yêu cầu và sản phẩm cần cung cấp. Phong cách làm việc hợp tác và tài năng chất lượng cao của họ đã nhận được phản hồi tích cực từ phía khách hàng; sự hiểu biết của họ về dự án đã thực sự ấn tượng. Ngoài ra, họ phản hồi nhanh chóng và linh hoạt. \""
+    }
+}
