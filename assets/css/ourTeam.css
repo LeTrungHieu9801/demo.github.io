@@ -263,13 +263,15 @@ img {
         width: 100%;
     }
     .member-name , .member-position{
-        font-size: 14px;
+        font-size: 9px;
     }
     .member {
         margin-bottom: 0px;
         position: relative;
     }
-
+    .w-col-4 {
+        width: 49.3333% !important;
+    }
 }
 
 
