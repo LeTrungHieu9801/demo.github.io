@@ -17,7 +17,8 @@
 }
 .text_p
 {
-    text-align: justify;
+    text-align: inherit;
+    font-size: 17px;
     padding: 0px 10px;
 }
 

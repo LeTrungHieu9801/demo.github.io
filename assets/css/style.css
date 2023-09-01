@@ -17,10 +17,18 @@ body {
   --bs-link-hover-color: #ffffff !important;
   --bs-primary-text-emphasis: #70b4f398 !important;
   --bs-primary-bg-subtle: #331e03 !important;
-  font-family: Graphik, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --bs-primary1: #f9892e !important;
 }
 
+h6
+{
+  color: f9892e;
+}
+.h2, h2
+{
+  font-size: 3rem;
+}
 .Text_logo
 {
   line-height: 40px; color:white; margin: 3px 0px 0px 3px; font-size: 20px;
@@ -88,7 +96,7 @@ ul[role="list"]>li {
 }
 
 .justify {
-  text-align: justify !important;
+  text-align: inherit !important;
 }
 
 .row {
@@ -261,7 +269,7 @@ ul[role="list"]>li {
 }
 
 .card__side {
-  height: 23rem;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -354,8 +362,8 @@ ul[role="list"]>li {
 } */
 
 .card__title {
-  height: 20rem;
-  padding: 4rem 2rem 2rem;
+  height: 80%;
+  padding: 6rem 2rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,12 +393,12 @@ ul[role="list"]>li {
 
 /* Dưới icon */
 .card__heading {
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 500;
   text-align: center;
   margin-top: 30px;
   padding: 0px 3px;
-  color: #fff;
+  color: #f19d00;
   width: 100%;
 }
 
@@ -442,9 +450,10 @@ ul[role="list"]>li {
 }
 
 .card__price-value {
-  font-size: 1rem;
+  font-size: 16px;
   padding: 0px 10px;
-  font-weight: 100;
+  color: #777;
+  font-weight: 600;
 }
 
 .row1 {
@@ -541,6 +550,8 @@ ul[role="list"]>li {
   font-family: Graphik, sans-serif;
 }
 
+
+
 .border_color {
   /* background-image: linear-gradient(358deg, #30637e, #274756d4, #00b8f840, #284a6fa6) !important; */
   font-family: 'Open Sans';
@@ -573,8 +584,8 @@ h3 {
   right: -5px;
   top: 0;
   height: 100%;
-  width: 2px;
-  background-color: #ff014f;
+  width: 6px;
+  background-color: #ffffff;
   animation: type .5s infinite;
   -webkit-animation: type .5s infinite;
 }
@@ -920,6 +931,10 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 250px;
+}
+.mobile-nav > .headerService{
+  display: none;
 }
 
 .mobile-nav a {
@@ -2014,8 +2029,8 @@ footer {
 /* about us */
 
 .boder_li {
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   background-color: #fff;
   border-radius: 50%;
 }
@@ -2072,8 +2087,9 @@ ul[class^=ring] li {
 }
 
 .size_icon {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
+  max-width: none;
 }
 
 .size_icon1 {
@@ -2398,7 +2414,7 @@ icons
 .text_spproach {
   color: #fff;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* .text_spproach:hover {
@@ -2808,13 +2824,10 @@ icons
 .user-picture1 {
   overflow: hidden;
   object-fit: cover;
-  width: 99%;
-  margin-top: 3px;
+  width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
-  align-items: center;
-
   border-radius: 10px;
 }
 
@@ -2833,7 +2846,7 @@ icons
 
 .card-client {
   background:
-    linear-gradient(#0d0d0d95 0 0) padding-box;
+    linear-gradient(#00000095 0 0) padding-box;
   /*this is your grey background*/
   width: 100%;
   height: 40vh;
@@ -2883,9 +2896,7 @@ icons
   transform: translateY(-10px);
   border: 3px solid transparent;
   background:
-    linear-gradient(#0d0d0d 0 0) padding-box,
-    /*this is your grey background*/
-    linear-gradient(#0d0d0d 0 0) padding-box,
+    linear-gradient(#000000 0 0) padding-box,
     /*this is your grey background*/
     linear-gradient(115deg, #eec230 22.45%, #ee720c 45.14%, #f79618 73%);
   transition: all 0.3s ease;
@@ -2908,24 +2919,18 @@ icons
   margin: 0;
   margin-top: 5px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.name-client span {
-  margin: 0;
-  margin-top: 0px;
-  font-weight: 600;
-  font-size: 18px;
-}
 
 .name-client span {
-padding: 5px 0px;
+padding: 0px;
 }
 
 .name-client span {
   display: block;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .social-media:before {
@@ -3022,7 +3027,6 @@ padding: 5px 0px;
 
 .slider .slide img {
   width: 80%;
-  height: 100px;
   border-radius: 10px;
 
 }
