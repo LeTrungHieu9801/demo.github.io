@@ -704,10 +704,22 @@ h6 {
     font-size: 28px;
     padding: 8px 0;
   }
-  .video-container 
-  {
-    height: 30vh;
-  }
+  .w-col-4 {
+    width: 49.3333%;
+}
+}
+
+@media (max-width: 998px) {
+.hero-container .col-lg-9
+{
+  display: none;
+  
+}
+
+.video-container 
+{
+  height: 50vh;
+}
 }
 
 
