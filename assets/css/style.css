@@ -1304,7 +1304,7 @@ section {
 .section-bg,
 .section-bg a,
 .section-bg {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .section-title {
@@ -1836,7 +1836,7 @@ section {
   background: linear-gradient(115deg, #f9892e  22.45%, #f9892e 45.14%, #f9892e 73%);
   animation: gradient 5s ease infinite !important;
   transition-duration: .1s !important;
-  border: 0;
+  border: 2px solid #351e04;
   padding: 5px 20px;
   color: #111111;
   transition: 0.4s;
@@ -1940,7 +1940,7 @@ footer {
   text-align: center;
   padding: 60px 12px;
   color: #fff;
-  background-color: #7b511a !important;
+  background-color: #b26b0d !important;
 }
 
 #footer .copyright {
