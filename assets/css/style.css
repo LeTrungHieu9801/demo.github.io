@@ -36,7 +36,7 @@ body {
   --ls: clamp(-1.75px, -0.25vw, -3.5px);
 }
 
-.body1 {
+.body2 {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -57,16 +57,19 @@ body {
 }
 
 .title2 {
-  font-size: var(--fs);
+  font-size: 80px;
   font-weight: 800;
   letter-spacing: var(--ls);
   position: relative;
   overflow: hidden;
-  background: #00000000;
+  background: #00000050;
   margin: 0;
 }
 
 .subtitle {
+  font-size: 60px;
+  padding: 10px 0px;
+  color: orange;
 }
 
 .aurora {
