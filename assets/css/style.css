@@ -25,11 +25,11 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
 :root {
-  --bg: #000000;
-  --clr-1: #ffffff;
-  --clr-2: #ffffff;
-  --clr-3: #ffffff;
-  --clr-4: #fcfcfc;
+  --bg: #fff;
+  --clr-1: #ffdcb3;
+  --clr-2: #fff;
+  --clr-3: #ffdcb3;
+  --clr-4: #fff;
 
   --blur: 1rem;
   --fs: clamp(3rem, 8vw, 7rem);
@@ -42,7 +42,7 @@ body {
   place-items: center;
   background-color: var(--bg);
   color: #fff;
-  font-family: "Inter", "DM Sans", Arial, sans-serif;
+  
 }
 
 *,
@@ -57,19 +57,21 @@ body {
 }
 
 .title2 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
   letter-spacing: var(--ls);
   position: relative;
   overflow: hidden;
-  background: #00000050;
+  background: #00000000;
   margin: 0;
+  font-family: "Inter", "DM Sans", Arial, sans-serif;
 }
 
 .subtitle {
-  font-size: 60px;
+  font-size: 30px;
   padding: 10px 0px;
   color: orange;
+  font-family: "Inter", "DM Sans", Arial, sans-serif;
 }
 
 .aurora {
