@@ -14,25 +14,24 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900"
     rel="stylesheet">
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/free.min.css">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/brand.min.css">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/flag.min.css">
-
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/ourTeam.css">
   <link rel="stylesheet" href="./assets/css/customes.css">
   <link rel="stylesheet" href="./assets/css/card_dell.css">
   <link rel="stylesheet" href="./assets/css/card_js_2.css">
+  <link rel="stylesheet" href="./assets/css/test.css">
   <style type="text/css">
     .carousel-item {
       height: 40vh;
@@ -74,7 +73,7 @@
 
       border: 1px solid var(--background-color);
       border-radius: 1.6rem;
-      padding: 60px;
+      padding: 55px;
 
       display: flex;
       align-items: flex-end;
@@ -137,8 +136,8 @@
     }
 
     .main .container p {
-      color: hsla(0, 0%, 100%, .6);
-      font-size: 15px;
+      color: #777777;
+      font-size: 19px;
       text-align: left;
     }
 
@@ -241,9 +240,9 @@
     .why-us {
       /* The image used */
       /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), #212529), url(assets/img/aaa2.jpeg); */
-      background-color: #ec8e353d;
+      /* background-color: #0a0a0a3d; */
       /* Set a specific height */
-      min-height: 350px;
+      /* min-height: 350px; */
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -254,7 +253,8 @@
   </style>
 
   <!-- Favicons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    data:image/png;base64,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>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -263,29 +263,29 @@
 </head>
 
 <body class="background-color">
-
   <header id="header" class="fixed-top bg-blur">
     <div class=""
       style="padding: 0px 0px 5px 0px; display: flex;flex-direction: row; justify-content: space-between;  height: 59px; margin: 0px 10%;">
-
       <div class="logo" style="display: flex;">
         <!-- <h1 class="text-light"><a href="index.html"><span>Our-Compnay Associate</span></a></h1> -->
         <a href="index.html"><img src="assets/img/logo_white.svg" style="width: 50px;height: 50px;" alt=""
             class="img-fluid"></a>
         <span class="Text_logo" style="margin-top: 8px;"> Xnight Group</span>
       </div>
-
       <nav class="nav-menu d-none d-lg-block" style="display: inline-block;">
         <ul style="height: 100%; margin-top: 10px;">
-          <li><a href="index.html" data-i18n="header.home">Home</a></li>
+          <li><a href="#title22" data-i18n="header.home">Home</a></li>
           <li style=" width: 100px;"><a href="" style="display: flex; justify-content: center;" class="headerService"
               data-i18n="header.Services">Services</a>
             <ul>
               <li>
-                <a href="#about" data-i18n="header.Distribution">Distribution</a>
+                <a href="#about" data-i18n="header.Distribution">Music Distribution</a>
               </li>
               <li>
-                <a href="#YoutubeMCN" data-i18n="header.YoutubeMCN">Youtube MCN</a>
+                <a href="#label" data-i18n="header.Label">Label Services</a>
+              </li>
+              <li>
+                <a href="#YoutubeMCN" data-i18n="header.YoutubeMCN">Youtube - Tiktok MCN</a>
               </li>
               <li>
                 <a href="#Cryto" data-i18n="header.CryptoVentures">Crypto Ventures</a>
@@ -294,7 +294,7 @@
                 <a href="#DEDICATED_SERVER" data-i18n="header.DedicatedServerRental">Dedicated Server Rental</a>
               </li>
               <li>
-                <a href="#PropertyRental" data-i18n="header.RealEstate">Real estate</a>
+                <a href="#PropertyRental" data-i18n="header.RealEstate">Real Estate</a>
               </li>
             </ul>
           </li>
@@ -317,24 +317,20 @@
           </li>
         </ul>
       </nav><!-- .nav-menu -->
-
     </div>
   </header><!-- End #header -->
-
   <!-- ======= Hero Section ======= -->
   <div class="video-container">
     <video autoplay loop muted>
       <source src="./assets/img/band1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-
     <div class="hero-container">
       <div class="row" , style="height: 100%; padding-top: 100px;">
-        <div class="col-lg-4" style="display: flex; justify-content: center; margin-top: 120px; margin-left: 5%;">
+        <div class="col-lg-4" style="display: flex; justify-content: center; margin-top: 180px; margin-left: 5%;">
           <div class="row text_service" style="color: white ; font-size: 70px;">
-
             <div class="content2">
-              <h1 class="title2">Music, management, innovation and technology
+              <h1 id="title22" class="title2" data-i18n="header.title">Music, management, innovation and technology
                 <div class="aurora">
                   <div class="aurora__item"></div>
                   <div class="aurora__item"></div>
@@ -342,18 +338,11 @@
                   <div class="aurora__item"></div>
                 </div>
               </h1>
-              <p class="subtitle">We're the versatile choice for your needs!</p>
-
+              <p class="subtitle" data-i18n="header.subtitle">We're the versatile choice for your needs!</p>
             </div>
-
           </div>
-          <!-- <div class="row" style="margin: 30px 0px 0px 20%">
-            <span class="type-text text_gradient text_service"></span>
-          </div> -->
-
         </div>
         <div class="dol-lg-3">
-
         </div>
       </div>
     </div>
@@ -361,23 +350,20 @@
 
   <!-- #hero -->
 
-
   <main id="main">
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about backgr" style="padding-top: 100px; padding-bottom: 10px; ">
-      <div class="container">
-
-
-
+      <div class="" style="margin: 0 14%;">
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2">
             <div class="orbit">
 
               <ul class="orbit-wrap">
                 <li class="orbit-center"
-                  style=" width: 70px; height: 70px; background-color: #fffffffb; border-radius: 50%; z-index: 5;"><img
-                    src="assets/img/logo_mau.svg" class="size_icon1" alt=""></li>
+                  style=" width: 80px; height: 80px; background-color: #fffffffb; border-radius: 50%; z-index: 5;">
+                  <img src="assets/img/logo_mau.svg" class="size_icon1" style="max-width: none;" alt="">
+                </li>
 
                 <li>
                   <ul class="ring-1">
@@ -410,51 +396,14 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="orbit">
-              <ul class="orbit-wrap">
-                <li class="orbit-center"
-                  style=" width: 80px; height: 80px; background-color: #fffffffb; border-radius: 50%; z-index: 5;"><img
-                    src="assets/img/logo_mau.svg" style="width: 70px; height: 70px; margin-bottom: 5px; margin-left: 5px;" class="size_icon1" alt=""></li>
-                <li>
-                  <ul class="ring-1">
-                    <li><img class="size_icon" src="assets/img/icons8-youtube-music.svg" alt=""></li>
-                    <li><img src="assets/img/icons8-soundcloud.svg" class="size_icon" alt=""></li>
-
-                    <li><img class="size_icon" src="assets/img/spotify.jpg" style="border-radius: 50%;" alt=""></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <ul class="ring-2">
-                    <li><img src="assets/img/spotify.jpg" alt=""></i></li>
-                    <li><img class="size_icon" src="assets/img/facebook.svg" alt=""></li>
-                    <li><img class="size_icon" src="assets/img/anghami.svg" alt=""></li>
-                    <li><img class="size_icon" src="assets/img/itunes.svg" alt=""></li>
-                    <li><img class="size_icon" src="assets/img/shazam.svg" alt=""></li>
-                    <li><img class="size_icon" src="assets/img/instagram.svg" alt=""></li>
-                    <li><img class="size_icon boder_li" src="assets/img/napster.svg" alt=""></li>
-                    <li><img class="size_icon boder_li" src="assets/img/Pandora_Radio-Logo.wine.svg" alt=""></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <ul class="ring-3">
-        
-                    <li><img class="size_icon" src="assets/img/wynk-music.svg" alt=""></li>
-
-                    <li><img src="assets/img/icons8-deezer.svg" class="size_icon" alt=""></li>
-                  </ul>
-                </li>
-              </ul>
-            </div> -->
           </div>
 
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" style="margin-top: 10px;">
             <div class="">
-              <h2 class="font_title"> <span data-i18n="MusicDistribution.Music">Music</span> <span class="highlight"
-                  data-i18n="MusicDistribution.distribution">distribution</span> </h2>
+              <h2 class="font_title" style="width: 80%;"> <span data-i18n="MusicDistribution.Music">Music</span> <span
+                  class="highlight" data-i18n="MusicDistribution.distribution">distribution</span> </h2>
             </div>
-            <p class=" text_color" style="padding-bottom: 40px;" data-i18n="MusicDistribution.desc">
+            <p class=" text_color" style="padding-bottom: 20px;" data-i18n="MusicDistribution.desc">
               Regardless of your career level, Xnight Group helps you. Sell your music worldwide, in stores like
               Spotify, Tidal, or Apple Music. Create a free account, upload the necessary files, and select the
               platforms where your music will be distributed. Automatic processes for revenue collecting data are used
@@ -463,7 +412,8 @@
             </p>
 
             <div style="display: flex; justify-content: center; width: 100;">
-              <a href="#" class="btn btn--green" style="width: 200px; margin-top: 0px; max-height: 60px;"
+              <a href="#" class="btn btn--green"
+                style="width: 200px; margin-top: 0px; margin-right: 90px; max-height: 60px;"
                 data-i18n="title.JoinNow">Join now</a>
             </div>
           </div>
@@ -475,7 +425,7 @@
 
     <!-- ======= Call To Action Section ======= -->
     <section class="call-to-action">
-      <div class="container">
+      <div class="" style="margin: 0 12%;">
         <div class="text-center">
           <div class="section-title">
             <h2 style="color: #fff;" class="font_title" data-i18n="title.OurApproach">Our Approach</h2>
@@ -488,7 +438,7 @@
             <div class="col-md-12">
               <div class="row main">
                 <div class="wrap wrap--3  col-lg-3 col-md-6">
-                  <h6 class="text_spproach" style="  font-size: 14px ;" data-i18n="OurApproach.copyrights">01. We check
+                  <h6 class="text_spproach" data-i18n="OurApproach.copyrights">01. We check
                     music copyrights </h6>
                   <div class="container container--3 ">
                     <p data-i18n="OurApproach.descCopyrights">We will check music copyright on different platforms to
@@ -522,15 +472,18 @@
 
     <!-- ======= Services Section ======= -->
 
-    <section style="padding: 0px 0px 80px 0px; margin-right: 10%;" id="services" class="services section-bg">
+    <section style="padding: 120px 0px 140px 0px; margin-right: 10%;" id="services" class="services section-bg">
       <div class="">
         <div class="section-title">
           <div class="row">
-            <div class="col-lg-6" style="display: flex; justify-content: flex-end;">
-              <img style="width: 600px ; height: 401px" src="./assets/img/aaa.jpg" alt="">
+            <div class="col-lg-6"
+              style="display: flex; justify-content: flex-end; align-items: center; border-radius: 20px;">
+              <img
+                style="width: 450px ; height: 300px; border-radius: 20px; border: solid 2px #f9892e ; margin-top: 20px;"
+                src="./assets/img/aaa.jpg" alt="">
             </div>
-            <div class="col-lg-4">
-              <h2 style="color: #fff; text-align: center; margin-top: 80px;" class="font_title"
+            <div class="col-lg-4" style="margin-left: 5%;">
+              <h2 style="color: #fff; text-align: center; margin-top: 0px; padding: 0px;" class="font_title"
                 data-i18n="title.OurWork">Our Work</h2>
               <p class="text_color" style="text-align: justify;" data-i18n="OurWork.desc">We distribute your music
                 to every download and streaming portal on the planet. This
@@ -618,8 +571,9 @@
           <h2 style="color:white ; margin-bottom: 0px;
           font-family: Graphik, sans-serif; display: flex; justify-content: center; width: 100%;
           font-weight: 500;">Featured Artists</h2>
-          <div class="wrapper" style="margin: 50px ;">
+          <div class="wrapper" style="margin: 50px;">
             <div class="slider">
+
               <div class="slide-track ">
                 <!-- Img Code -->
                 <div class="slide">
@@ -776,151 +730,17 @@
                   </div>
                 </div>
 
-
-                <!-- copy the number of spans displayed at the beggining onto the end -->
-
                 <div class="slide">
                   <div class="">
                     <div class="card-client2">
-                      <div style=" background-image: url(./assets/img/artist/art1.jpg);
-                      background-position: center;" class="user-picture1">
+                      <div class="user-picture1">
+                        <img style="width: 100%;" src="./assets/img/phoebe_Bridgerss.jpg" alt="">
                       </div>
-                      <p class="name-client"> Andrea Jelić
+                      <p class="name-client"> Phoebe Bridgers
                       </p>
                     </div>
                   </div>
                 </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/2.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Dan Mall
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/3.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Jesse Showalter
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/4.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Helen Tran
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/5.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Chris Owens
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1 " style="background-image: url(./assets/img/artist/6.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Lilla Bardenova
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/7.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Daniele Buffa
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/8.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Elif Kameşoğlu
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1 " style="background-image: url(./assets/img/artist/9.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Lil Baby
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/10.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Chancelor Johnathan Bennett
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slide">
-                  <div class="">
-                    <div class="card-client2">
-                      <div class="user-picture1" style=" background-image: url(./assets/img/artist/11.jpg);
-                      background-position: center;">
-
-                      </div>
-                      <p class="name-client"> Conor Maynard
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
 
                 <!-- Img Code End -->
               </div>
@@ -931,10 +751,99 @@
     </div>
 
 
+    <section id="label" style="padding-top: 0px;">
+      <div class="">
+        <main id="LabelService">
+          <div class="content">
+            <h2 id="" class="font_title" style="width: 100%; padding-top: 0px; font-size: 70px;"> <span
+                data-i18n="Label.Label">Label</span> <span class="highlight" data-i18n="Label.service">Services</span>
+            </h2>
+            <p data-i18n="Label.desc">
+              Label services ampliflies artists and their management to build record labels. Record labels that people
+              love. That push seasoned artists to the next level. And help young talent to rise to the top. </p>
+            <p data-i18n="Label.desc1">
+              The music industry is constantly changing. Every day, new opportunities arise, and old ways of working
+              lose impact.
+              Wide Awake helps music companies to stay on top of their game. By providing seasoned strategists, in-house
+              specialists and top of line technology to create momentum when the opportunity arises.
+            </p>
+            <!-- <p data-i18n="Label.desc2">
+              We like to amplify what you’re great at. And help out where you face challenges. Together, as a team.
+              Because that’s how we achieve the biggest success, by working together. So you can excel at what you love
+              doing.
+            </p> -->
+
+            <div style="display: flex; justify-content: center; width: 100%; margin-top: 40px;">
+              <a style="width: 200px; margin-top: 0px;" class="btn btn--green" href="#"
+                data-i18n="CryptoVentures.Learn">Try now</a>
+            </div>
+
+          </div>
+
+          <div class="swiper-container labelImg-en">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide--one">
+                  <video src="./video/Yellow and Black Music Concert Instagram Story Video.mp4" loop="true"
+                    autoplay="autoplay" muted></video>
+                  <div class="slide-content">
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide--two">
+                  <div class="slide-content">
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide--five">
+                  <video src="./video/Animated White Club Remix Party Night Instagram Story.mp4" loop="true"
+                    autoplay="autoplay" muted></video>
+                </div>
+                <div class="swiper-slide swiper-slide--three">
+                </div>
+                <div class="swiper-slide swiper-slide--four">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination1"></div>
+          </div>
+          <div class="swiper-container labelImg-vn">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide--one">
+                  <video
+                    src="https://res.cloudinary.com/dvn4ozd0r/video/upload/f_auto:video,q_auto/v1/img%20vn/fwfmkciyeae9yde6junc"
+                    loop="true" autoplay="autoplay" muted></video>
+                  <div class="slide-content">
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide--twovn">
+
+                  <div class="slide-content">
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide--five">
+                  <video
+                    src="https://res.cloudinary.com/dvn4ozd0r/video/upload/f_auto:video,q_auto/v1/img%20vn/vlgp3ubrjdvsvldescok"
+                    loop="true" autoplay="autoplay" muted></video>
+                </div>
+                <div class="swiper-slide swiper-slide--threevn">
+                </div>
+                <div class="swiper-slide swiper-slide--fourvn">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination2"></div>
+          </div>
+          <div class="circle"></div>
+        </main>
+      </div>
+    </section>
+
+
     <!-- ======= Our Team Section ======= -->
     <section id="team" style="color: #fff ;padding-top:0px; padding-bottom: 60px;" class="team container">
       <div class="container">
-        <h2 id="YoutubeMCN" style="text-align: center;" class="font_title ">Youtube <span class="highlight">MCN</span>
+        <h2 id="YoutubeMCN" style="text-align: center;" class="font_title ">Youtube - Tiktok <span
+            class="highlight">MCN</span>
         </h2>
         <div class="row" style="width: 100%;">
           <div class="col-lg-9 " style="display: flex; align-content: center; flex-wrap: wrap;">
@@ -948,7 +857,7 @@
               <div class="row">
                 <p class="text_color" data-i18n="YoutubeMCN.desc"> Are you a passionate
                   content creator looking to
-                  take your YouTube channel to the next level? Look no further! At Xnight Group, we're dedicated to
+                  take your YouTube and channel to the next level? Look no further! At Xnight Group, we're dedicated to
                   elevating your YouTube experience and helping you achieve unprecedented success. </p>
               </div>
             </div>
@@ -963,8 +872,6 @@
     </section>
     <section class="section-plans body1 container" id="section-plans" style="padding-top: 0px;">
       <div class="">
-        <h2 style="color: #fff; text-align: center; padding-bottom: 20px;" data-i18n="title.Benefits">Benefits of Xnight
-          MCN</h2>
       </div>
 
       <div class="row" style="width: 100%;">
@@ -990,7 +897,7 @@
           <div class="card9">
             <div class="card__side card__side--front-1">
               <div class="card__title card__title--2">
-                <i class="fa-solid fa-money-bill-trend-up"></i>
+
                 <i class="fas fa-plane"></i>
                 <h4 class="card__heading" data-i18n="Benefits.Monetization">Monetization Mastery</h4>
                 <p class="card__price-value justify" data-i18n="Benefits.descMonetization"
@@ -1021,7 +928,7 @@
         </div>
       </div>
 
-      <div class="u-center-text u-margin-top-huge" style="margin-top: 20px;">
+      <div class="u-center-text u-margin-top-huge" style="margin-top: 40px;">
         <a href="#" class="btn btn--green">Get Started</a>
       </div>
     </section>
@@ -1059,9 +966,365 @@
       </div>
     </section>
 
+    <section class="" style="padding: 60px 0px 0px 0px;">
+      <div class="" style="margin: 0 10%;">
+        <div class="row">
+          <h2 id="DEDICATED_SERVER" class="font_title"
+            style="width: 100%; padding-top: 0px; text-align: center; font-size: 70px;"> <span
+              data-i18n="Dedicated.dedicated">Dedicated</span> <span class="highlight" data-i18n="Dedicated.server">
+              server rental
+              pricing</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4" style="margin-top: 60px; display: flex;justify-content: flex-end;">
 
+            <div class="svg-frame">
+
+              <svg style="--i:0;--j:0;" class="svg-container">
+                <g id="out1">
+                  <path
+                    d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z">
+                  </path>
+                  <path mask="url(#path-1-inside-1_111_3212)" stroke-miterlimit="16" stroke-width="2" stroke="#f9892e"
+                    d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z">
+                  </path>
+                </g>
+              </svg>
+
+              <svg style="--i:1;--j:1;" class="svg-container">
+                <g id="out2">
+                  <mask fill="white" id="path-2-inside-2_111_3212">
+                    <path
+                      d="M102.892 127.966C93.3733 142.905 88.9517 160.527 90.2897 178.19L94.3752 177.88C93.1041 161.1 97.3046 144.36 106.347 130.168L102.892 127.966Z">
+                    </path>
+                    <path
+                      d="M93.3401 194.968C98.3049 211.971 108.646 226.908 122.814 237.541L125.273 234.264C111.814 224.163 101.99 209.973 97.2731 193.819L93.3401 194.968Z">
+                    </path>
+                    <path
+                      d="M152.707 92.3592C140.33 95.3575 128.822 101.199 119.097 109.421L121.742 112.55C130.981 104.739 141.914 99.1897 153.672 96.3413L152.707 92.3592Z">
+                    </path>
+                    <path
+                      d="M253.294 161.699C255.099 175.937 253.132 190.4 247.59 203.639L243.811 202.057C249.075 189.48 250.944 175.74 249.23 162.214L253.294 161.699Z">
+                    </path>
+                    <path
+                      d="M172 90.0557C184.677 90.0557 197.18 92.9967 208.528 98.6474C219.875 104.298 229.757 112.505 237.396 122.621L234.126 125.09C226.869 115.479 217.481 107.683 206.701 102.315C195.921 96.9469 184.043 94.1529 172 94.1529V90.0557Z">
+                    </path>
+                    <path
+                      d="M244.195 133.235C246.991 138.442 249.216 143.937 250.83 149.623L246.888 150.742C245.355 145.34 243.242 140.12 240.586 135.174L244.195 133.235Z">
+                    </path>
+                    <path
+                      d="M234.238 225.304C223.932 237.338 210.358 246.126 195.159 250.604C179.961 255.082 163.79 255.058 148.606 250.534L149.775 246.607C164.201 250.905 179.563 250.928 194.001 246.674C208.44 242.42 221.335 234.071 231.126 222.639L234.238 225.304Z">
+                    </path>
+                  </mask>
+                  <path mask="url(#path-2-inside-2_111_3212)" fill="#f9892e"
+                    d="M102.892 127.966L105.579 123.75L101.362 121.063L98.6752 125.28L102.892 127.966ZM90.2897 178.19L85.304 178.567L85.6817 183.553L90.6674 183.175L90.2897 178.19ZM94.3752 177.88L94.7529 182.866L99.7386 182.488L99.3609 177.503L94.3752 177.88ZM106.347 130.168L110.564 132.855L113.251 128.638L109.034 125.951L106.347 130.168ZM93.3401 194.968L91.9387 190.168L87.1391 191.569L88.5405 196.369L93.3401 194.968ZM122.814 237.541L119.813 241.54L123.812 244.541L126.813 240.542L122.814 237.541ZM125.273 234.264L129.272 237.265L132.273 233.266L128.274 230.265L125.273 234.264ZM97.2731 193.819L102.073 192.418L100.671 187.618L95.8717 189.02L97.2731 193.819ZM152.707 92.3592L157.567 91.182L156.389 86.3226L151.53 87.4998L152.707 92.3592ZM119.097 109.421L115.869 105.603L112.05 108.831L115.278 112.649L119.097 109.421ZM121.742 112.55L117.924 115.778L121.152 119.596L124.97 116.368L121.742 112.55ZM153.672 96.3413L154.849 101.201L159.708 100.023L158.531 95.1641L153.672 96.3413ZM253.294 161.699L258.255 161.07L257.626 156.11L252.666 156.738L253.294 161.699ZM247.59 203.639L245.66 208.251L250.272 210.182L252.203 205.569L247.59 203.639ZM243.811 202.057L239.198 200.126L237.268 204.739L241.88 206.669L243.811 202.057ZM249.23 162.214L248.601 157.253L243.641 157.882L244.269 162.842L249.23 162.214ZM172 90.0557V85.0557H167V90.0557H172ZM208.528 98.6474L206.299 103.123L206.299 103.123L208.528 98.6474ZM237.396 122.621L240.409 126.611L244.399 123.598L241.386 119.608L237.396 122.621ZM234.126 125.09L230.136 128.103L233.149 132.093L237.139 129.08L234.126 125.09ZM206.701 102.315L204.473 106.791L204.473 106.791L206.701 102.315ZM172 94.1529H167V99.1529H172V94.1529ZM244.195 133.235L248.601 130.87L246.235 126.465L241.83 128.83L244.195 133.235ZM250.83 149.623L252.195 154.433L257.005 153.067L255.64 148.257L250.83 149.623ZM246.888 150.742L242.078 152.107L243.444 156.917L248.254 155.552L246.888 150.742ZM240.586 135.174L238.22 130.768L233.815 133.134L236.181 137.539L240.586 135.174ZM234.238 225.304L238.036 228.556L241.288 224.759L237.491 221.506L234.238 225.304ZM195.159 250.604L196.572 255.4L196.572 255.4L195.159 250.604ZM148.606 250.534L143.814 249.107L142.386 253.899L147.178 255.326L148.606 250.534ZM149.775 246.607L151.203 241.816L146.411 240.388L144.983 245.18L149.775 246.607ZM194.001 246.674L195.415 251.47L195.415 251.47L194.001 246.674ZM231.126 222.639L234.379 218.841L230.581 215.589L227.329 219.386L231.126 222.639ZM98.6752 125.28C88.5757 141.13 83.8844 159.826 85.304 178.567L95.2754 177.812C94.0191 161.227 98.1709 144.681 107.109 130.653L98.6752 125.28ZM90.6674 183.175L94.7529 182.866L93.9976 172.895L89.912 173.204L90.6674 183.175ZM99.3609 177.503C98.1715 161.8 102.102 146.135 110.564 132.855L102.131 127.481C92.5071 142.585 88.0368 160.4 89.3895 178.258L99.3609 177.503ZM109.034 125.951L105.579 123.75L100.205 132.183L103.661 134.385L109.034 125.951ZM88.5405 196.369C93.8083 214.41 104.78 230.259 119.813 241.54L125.815 233.542C112.512 223.558 102.802 209.532 98.1397 193.566L88.5405 196.369ZM126.813 240.542L129.272 237.265L121.274 231.263L118.815 234.54L126.813 240.542ZM128.274 230.265C115.679 220.813 106.486 207.534 102.073 192.418L92.4735 195.221C97.493 212.412 107.948 227.513 122.272 238.263L128.274 230.265ZM95.8717 189.02L91.9387 190.168L94.7415 199.767L98.6745 198.619L95.8717 189.02ZM151.53 87.4998C138.398 90.681 126.188 96.8793 115.869 105.603L122.325 113.239C131.457 105.519 142.262 100.034 153.884 97.2187L151.53 87.4998ZM115.278 112.649L117.924 115.778L125.56 109.322L122.915 106.193L115.278 112.649ZM124.97 116.368C133.616 109.059 143.846 103.866 154.849 101.201L152.495 91.4818C139.981 94.5132 128.347 100.419 118.514 108.732L124.97 116.368ZM158.531 95.1641L157.567 91.182L147.848 93.5364L148.812 97.5185L158.531 95.1641ZM248.334 162.327C250.028 175.697 248.181 189.277 242.978 201.708L252.203 205.569C258.082 191.522 260.169 176.177 258.255 161.07L248.334 162.327ZM249.521 199.027L245.741 197.445L241.88 206.669L245.66 208.251L249.521 199.027ZM248.423 203.987C254.025 190.602 256.014 175.98 254.19 161.585L244.269 162.842C245.873 175.5 244.125 188.357 239.198 200.126L248.423 203.987ZM249.858 167.174L253.923 166.659L252.666 156.738L248.601 157.253L249.858 167.174ZM172 95.0557C183.903 95.0557 195.644 97.8172 206.299 103.123L210.757 94.1717C198.717 88.1761 185.45 85.0557 172 85.0557V95.0557ZM206.299 103.123C216.954 108.429 226.233 116.135 233.406 125.634L241.386 119.608C233.281 108.874 222.796 100.167 210.757 94.1717L206.299 103.123ZM234.383 118.631L231.113 121.1L237.139 129.08L240.409 126.611L234.383 118.631ZM238.116 122.077C230.393 111.849 220.403 103.552 208.93 97.8393L204.473 106.791C214.56 111.814 223.345 119.11 230.136 128.103L238.116 122.077ZM208.93 97.8393C197.458 92.1263 184.816 89.1529 172 89.1529V99.1529C183.269 99.1529 194.385 101.767 204.473 106.791L208.93 97.8393ZM177 94.1529V90.0557H167V94.1529H177ZM239.79 135.601C242.416 140.49 244.504 145.649 246.02 150.988L255.64 148.257C253.927 142.225 251.567 136.395 248.601 130.87L239.79 135.601ZM249.464 144.813L245.523 145.932L248.254 155.552L252.195 154.433L249.464 144.813ZM251.698 149.376C250.067 143.628 247.818 138.073 244.991 132.808L236.181 137.539C238.666 142.168 240.644 147.052 242.078 152.107L251.698 149.376ZM242.951 139.579L246.561 137.64L241.83 128.83L238.22 130.768L242.951 139.579ZM230.441 222.051C220.763 233.351 208.017 241.603 193.746 245.808L196.572 255.4C212.698 250.649 227.101 241.325 238.036 228.556L230.441 222.051ZM193.746 245.808C179.475 250.012 164.291 249.99 150.033 245.742L147.178 255.326C163.289 260.125 180.447 260.151 196.572 255.4L193.746 245.808ZM153.397 251.962L154.567 248.035L144.983 245.18L143.814 249.107L153.397 251.962ZM148.348 251.399C163.7 255.973 180.049 255.997 195.415 251.47L192.588 241.877C179.077 245.858 164.702 245.837 151.203 241.816L148.348 251.399ZM195.415 251.47C210.78 246.942 224.504 238.058 234.924 225.891L227.329 219.386C218.167 230.084 206.099 237.897 192.588 241.877L195.415 251.47ZM227.874 226.436L230.986 229.101L237.491 221.506L234.379 218.841L227.874 226.436Z">
+                  </path>
+                </g>
+              </svg>
+
+              <svg style="--i:0;--j:2;" class="svg-container">
+                <g id="inner3">
+                  <path
+                    d="M195.136 135.689C188.115 131.215 179.948 128.873 171.624 128.946C163.299 129.019 155.174 131.503 148.232 136.099L148.42 136.382C155.307 131.823 163.368 129.358 171.627 129.286C179.886 129.213 187.988 131.537 194.954 135.975L195.136 135.689Z">
+                  </path>
+                  <path
+                    d="M195.136 208.311C188.115 212.784 179.948 215.127 171.624 215.054C163.299 214.981 155.174 212.496 148.232 207.901L148.42 207.618C155.307 212.177 163.368 214.642 171.627 214.714C179.886 214.786 187.988 212.463 194.954 208.025L195.136 208.311Z">
+                  </path>
+                  <path mask="url(#path-5-inside-3_111_3212)" fill="#f9892e"
+                    d="M195.136 135.689L195.474 135.904L195.689 135.566L195.351 135.352L195.136 135.689ZM171.624 128.946L171.627 129.346L171.624 128.946ZM148.232 136.099L148.011 135.765L147.678 135.986L147.899 136.32L148.232 136.099ZM148.42 136.382L148.086 136.603L148.307 136.936L148.641 136.716L148.42 136.382ZM171.627 129.286L171.63 129.686L171.627 129.286ZM194.954 135.975L194.739 136.313L195.076 136.528L195.291 136.19L194.954 135.975ZM195.136 208.311L195.351 208.648L195.689 208.433L195.474 208.096L195.136 208.311ZM171.624 215.054L171.627 214.654L171.624 215.054ZM148.232 207.901L147.899 207.68L147.678 208.014L148.011 208.234L148.232 207.901ZM148.42 207.618L148.641 207.284L148.307 207.063L148.086 207.397L148.42 207.618ZM171.627 214.714L171.63 214.314L171.627 214.714ZM194.954 208.025L195.291 207.81L195.076 207.472L194.739 207.687L194.954 208.025ZM195.351 135.352C188.265 130.836 180.022 128.473 171.62 128.546L171.627 129.346C179.874 129.274 187.966 131.594 194.921 136.026L195.351 135.352ZM171.62 128.546C163.218 128.619 155.018 131.127 148.011 135.765L148.453 136.432C155.33 131.88 163.38 129.418 171.627 129.346L171.62 128.546ZM147.899 136.32L148.086 136.603L148.753 136.161L148.566 135.878L147.899 136.32ZM148.641 136.716C155.463 132.199 163.448 129.757 171.63 129.686L171.623 128.886C163.287 128.958 155.15 131.447 148.199 136.049L148.641 136.716ZM171.63 129.686C179.812 129.614 187.839 131.916 194.739 136.313L195.169 135.638C188.138 131.158 179.959 128.813 171.623 128.886L171.63 129.686ZM195.291 136.19L195.474 135.904L194.799 135.474L194.617 135.76L195.291 136.19ZM194.921 207.974C187.966 212.406 179.874 214.726 171.627 214.654L171.62 215.454C180.022 215.527 188.265 213.163 195.351 208.648L194.921 207.974ZM171.627 214.654C163.38 214.582 155.33 212.12 148.453 207.567L148.011 208.234C155.018 212.873 163.218 215.38 171.62 215.454L171.627 214.654ZM148.566 208.122L148.753 207.838L148.086 207.397L147.899 207.68L148.566 208.122ZM148.199 207.951C155.15 212.553 163.287 215.041 171.623 215.114L171.63 214.314C163.448 214.243 155.463 211.801 148.641 207.284L148.199 207.951ZM171.623 215.114C179.959 215.187 188.138 212.842 195.169 208.362L194.739 207.687C187.839 212.084 179.812 214.386 171.63 214.314L171.623 215.114ZM194.617 208.239L194.799 208.526L195.474 208.096L195.291 207.81L194.617 208.239Z">
+                  </path>
+                </g>
+                <path stroke="#f9892e"
+                  d="M240.944 172C240.944 187.951 235.414 203.408 225.295 215.738C215.176 228.068 201.095 236.508 185.45 239.62C169.806 242.732 153.567 240.323 139.5 232.804C125.433 225.285 114.408 213.12 108.304 198.384C102.2 183.648 101.394 167.25 106.024 151.987C110.654 136.723 120.434 123.537 133.696 114.675C146.959 105.813 162.884 101.824 178.758 103.388C194.632 104.951 209.472 111.97 220.751 123.249"
+                  id="out3"></path>
+              </svg>
+
+              <svg style="--i:1;--j:3;" class="svg-container">
+                <g id="inner1">
+                  <path fill="#f9892e"
+                    d="M145.949 124.51L148.554 129.259C156.575 124.859 165.672 122.804 174.806 123.331C183.94 123.858 192.741 126.944 200.203 132.236C207.665 137.529 213.488 144.815 217.004 153.261C220.521 161.707 221.59 170.972 220.09 179.997L224.108 180.665L224.102 180.699L229.537 181.607C230.521 175.715 230.594 169.708 229.753 163.795L225.628 164.381C224.987 159.867 223.775 155.429 222.005 151.179C218.097 141.795 211.628 133.699 203.337 127.818C195.045 121.937 185.266 118.508 175.118 117.923C165.302 117.357 155.525 119.474 146.83 124.037C146.535 124.192 146.241 124.349 145.949 124.51ZM224.638 164.522C224.009 160.091 222.819 155.735 221.082 151.563C217.246 142.352 210.897 134.406 202.758 128.634C194.62 122.862 185.021 119.496 175.06 118.922C165.432 118.367 155.841 120.441 147.311 124.914L148.954 127.91C156.922 123.745 165.876 121.814 174.864 122.333C184.185 122.87 193.166 126.019 200.782 131.421C208.397 136.822 214.339 144.257 217.928 152.877C221.388 161.188 222.526 170.276 221.23 179.173L224.262 179.677C224.998 174.671 225.35 169.535 224.638 164.522Z"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                  <path fill="#f9892e"
+                    d="M139.91 220.713C134.922 217.428 130.469 213.395 126.705 208.758L130.983 205.286L130.985 205.288L134.148 202.721C141.342 211.584 151.417 217.642 162.619 219.839C173.821 222.036 185.438 220.232 195.446 214.742L198.051 219.491C197.759 219.651 197.465 219.809 197.17 219.963C186.252 225.693 173.696 227.531 161.577 225.154C154.613 223.789 148.041 221.08 142.202 217.234L139.91 220.713ZM142.752 216.399C148.483 220.174 154.934 222.833 161.769 224.173C173.658 226.504 185.977 224.704 196.689 219.087L195.046 216.09C185.035 221.323 173.531 222.998 162.427 220.82C151.323 218.643 141.303 212.747 134.01 204.122L131.182 206.5C134.451 210.376 138.515 213.607 142.752 216.399Z"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </g>
+              </svg>
+
+              <svg style="--i:2;--j:4;" class="svg-container">
+                <path fill="#f9892e"
+                  d="M180.956 186.056C183.849 184.212 186.103 181.521 187.41 178.349C188.717 175.177 189.013 171.679 188.258 168.332C187.503 164.986 185.734 161.954 183.192 159.65C180.649 157.346 177.458 155.883 174.054 155.46C170.649 155.038 167.197 155.676 164.169 157.288C161.14 158.9 158.683 161.407 157.133 164.468C155.582 167.528 155.014 170.992 155.505 174.388C155.997 177.783 157.524 180.944 159.879 183.439L161.129 182.259C159.018 180.021 157.648 177.186 157.207 174.141C156.766 171.096 157.276 167.989 158.667 165.245C160.057 162.5 162.261 160.252 164.977 158.806C167.693 157.36 170.788 156.788 173.842 157.167C176.895 157.546 179.757 158.858 182.037 160.924C184.317 162.99 185.904 165.709 186.581 168.711C187.258 171.712 186.992 174.849 185.82 177.694C184.648 180.539 182.627 182.952 180.032 184.606L180.956 186.056Z"
+                  id="center1"></path>
+                <path fill="#f9892e"
+                  d="M172 166.445C175.068 166.445 177.556 168.932 177.556 172C177.556 175.068 175.068 177.556 172 177.556C168.932 177.556 166.444 175.068 166.444 172C166.444 168.932 168.932 166.445 172 166.445ZM172 177.021C174.773 177.021 177.021 174.773 177.021 172C177.021 169.227 174.773 166.979 172 166.979C169.227 166.979 166.979 169.227 166.979 172C166.979 174.773 169.227 177.021 172 177.021Z"
+                  id="center"></path>
+              </svg>
+
+            </div>
+
+          </div>
+          <div class="col-lg-7" style="margin-left: 5%;">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="sss">
+                  <h5 class="text_h5" data-i18n="Dedicated.name1"> High speed & Stability </h5>
+                  <p class="text_p" data-i18n="Dedicated.desc1"> Powerful servers with high-speed line managed by
+                    teachnican support team over 16
+                    years
+                    experience</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="sss">
+                  <h5 class="text_h5" data-i18n="Dedicated.name2">Management & Monitor </h5>
+                  <p class="text_p" data-i18n="Dedicated.desc2">Customers can track the amount of monthly bandwidth
+                    usage, and timely notification
+                    of
+                    incidents to have a reasonable plan to prepare upgradation</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="sss">
+                  <h5 class="text_h5" data-i18n="Dedicated.name3"> High Security </h5>
+                  <p class="text_p" data-i18n="Dedicated.desc3">Monitoring system work 24/7, dedicated firewall systems
+                    limit unauthorized access
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="sss">
+                  <h5 class="text_h5" data-i18n="Dedicated.name4">24/7 Technical Supports </h5>
+                  <p class="text_p" data-i18n="Dedicated.desc4">We are top hosting provider with over 16 year
+                    experience, our team are always here
+                    to
+                    assist via email, livechat, and telephone</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="DEDICATED_SERVER_RENTAL" style="padding-top: 0px; padding-bottom: 60px;">
+      <div class="container">
+        <div class="row" style="justify-content: center; margin-top: 20px;">
+
+          <div class="u-center-text u-margin-top-huge" style="margin-top: 25px;">
+            <a href="" class="btn btn--green" data-i18n="title.ContactNow"> Contact Now</a>
+          </div>
+        </div>
+    </section>
+    <!-- real easte -->
+
+    <section id="real">
+      <div class="container">
+        <div class="row" style="display: flex; text-align: center; width: 100%;">
+          <h2 id="PropertyRental" class="font_title" style="width: 100%; padding-top: 0px; padding-bottom: 30px; font-size: 70px;"> <span
+              data-i18n="RealEstate.Real">Real</span> <span class="highlight"
+              data-i18n="RealEstate.Estate">Estate</span>
+
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row" style="width: 100%; justify-content: center;">
+              <h6 style="    font-size: 17px;" data-i18n="RealEstate.name1">Buy property
+              </h6>
+            </div>
+            <div class="row" style="width: 100%; justify-content: center;">
+              <img src="https://prismic-io.s3.amazonaws.com/99-content/f6fe0e91-edac-429f-bee9-15200e1d53be_BuyProperty.svg
+            " alt="">
+            </div>
+            <div class="row">
+              <p style="margin: 20px 24px; text-align: center;" class="size-text" data-i18n="RealEstate.desc1">
+                If you’re looking for your ideal home, Xnight Group is the best place to find the latest resale
+                properties with
+                our user-friendly database of properties for sale such as HDB Resale, Executive Condos, Condos and
+                Houses for Sale. If you are looking for freehold properties, browse our Freehold Properties for Sale
+                for all your needs!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row" style="width: 100%; justify-content: center;">
+              <h6 style="    font-size: 17px;" data-i18n="RealEstate.name2">Property rentals
+              </h6>
+            </div>
+            <div class="row" style="width: 100%; justify-content: center;">
+              <img src="https://prismic-io.s3.amazonaws.com/99-content/c69a3839-1753-48e6-a834-c6e9f9b60785_PropertyRentals.svg
+            " alt="">
+            </div>
+            <div class="row">
+              <p style="margin: 20px 24px; text-align: center;" class="size-text" data-i18n="RealEstate.desc2">
+                Dive into the latest rental properties with our comprehensive rental properties library where you can
+                find the latest HDBs for Rent, Executive Condos for Rent, Houses for Rent, Condos for Rent. If you’re
+                looking for a room for rent instead, take a look at our Room Rental page for the latest rooms for
+                rent.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row" style="width: 100%; justify-content: center;">
+              <h6 style="font-size: 17px;" data-i18n="RealEstate.name3">New Launch condos
+              </h6>
+            </div>
+            <div class="row" style="width: 100%; justify-content: center;">
+              <img src="https://prismic-io.s3.amazonaws.com/99-content/cfb3fd7a-8125-4210-a390-afc63c46ace1_NewLaunch.svg
+            " alt="">
+            </div>
+            <div class="row">
+              <p style="margin: 20px 24px; text-align: center;" class="size-text" data-i18n="RealEstate.desc3">
+                In our New Launch section, you can find the latest New Launch projects and properties available in
+                Viet Nam. If you're looking for projects by their TOP date, browse the new launches that TOP 2022 up
+                to
+                TOP 2028, whereas if you're looking for a more general search, use New Launch Condos for Sale to
+                filter
+                between all new launch projects in Viet Nam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="whyUs" class=" " style="color: #fff; padding: 50px 0px 50px 0px; background-image: url(./assets/img/bia.svg);       -webkit-background-size: cover; -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;">
+      <div class="" style="text-align: center; margin: 0px 20%;  ">
+        <div class="section-title" style="padding-bottom: 10px; ">
+          <h2 style="color: #fff; font-size: 70px;"><span data-i18n="WhyUs.why">Why</span> <span class="highlight"
+              data-i18n="WhyUs.us"> Us</span> </h2>
+        </div>
+        <!-- <p style="color: #ffffff9e; " class="size-text" data-i18n="WhyUs.desc1">With a 24/7 active team , we are ready
+          to support you and to
+          solve any type of
+          problem
+          or
+          answer any
+          question.</p>
+        <p style="color: #ffffff9e; " class="size-text" data-i18n="WhyUs.desc2">At Xnight Group, we don't just
+          specialize in one field - we
+          excel in multiple
+          industries. From YouTube MCN to crypto and music distribution, our diverse expertise equips us to guide you
+          through a range of exciting opportunities.</p> -->
+      </div>
+      </div>
+
+      <input id="deep-purple" name="theme" type="radio" checked="checked" />
+      <input id="gold" name="theme" type="radio" />
+      <input id="space-black" name="theme" type="radio" />
+      <input id="silver" name="theme" type="radio" />
+      <input id="random" name="theme" type="radio" />
+      <input id="zoom" name="zoom" type="checkbox" />
+      <div class="scene">
+        <!-- <div class="pallette">
+    <label class="swatch" tabIndex="0" for="deep-purple"></label>
+    <label class="swatch" tabIndex="0" for="gold"></label>
+    <label class="swatch" tabIndex="0" for="space-black"></label>
+    <label class="swatch" tabIndex="0" for="silver"></label>
+    <label class="swatch" tabIndex="0" for="random">
+      <div class="icon"></div>
+      <div class="tooltip">CMD + click to save</div>
+    </label>
+  </div> -->
+        <!-- <div class="zoom-con">
+    <label class="swatch" tabIndex="0" for="zoom"></label>
+  </div> -->
+        <div class="phone-con">
+          <div class="phone">
+            <div class="buttons">
+              <div class="left">
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+              </div>
+              <div class="right">
+                <div class="button"></div>
+              </div>
+            </div>
+            <div class="camera"></div>
+            <div class="screen-container">
+              <div class="bg">
+                <div class="deep-purple">
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                </div>
+                <div class="gold">
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                </div>
+                <div class="space-black">
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                </div>
+                <div class="silver">
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                  <div class="section">
+                    <div class="glow"></div>
+                  </div>
+                </div>
+                <div class="random canvas">
+                  <div class="shapes">
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="notch-container" tabIndex="0">
+                <div class="notch">
+                  <div class="content">
+                    <div class="left">
+                      <div class="tile"></div>
+                      <div class="text"></div>
+                    </div>
+                    <div class="right"></div>
+                    <div class="bar">
+                      <div class="duration"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="notch-blur"></div>
+              <div class="screen">
+                <div class="app">
+                  <div class="weather"></div>
+                </div>
+                <div class="app"></div>
+                <div class="">
+                    <video class="video-container2 why1" style="min-height: 101%;" src="./video/aaqw1.mp4" loop="true"
+                    autoplay="autoplay" muted></video>
+                    <video class="video-container2 why2" style="min-height: 101%;" src="https://res.cloudinary.com/dvn4ozd0r/video/upload/f_auto:video,q_auto/v1/img%20vn/is0vxvku9q0mtde8xz7w" loop="true"
+                    autoplay="autoplay" muted></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our team -->
     <div class="team-members" id="our_team">
-      <h2 class="leadership-heading" class="font_title">Our team</h2>
+      <h2 class="leadership-heading"><span data-i18n="OurTeam.our">Our</span> <span class="highlight"
+          data-i18n="OurTeam.team">Team</span> </h2>
       <div class="executives">
         <div class="collection-list-wrapper-5 w-dyn-list">
           <div role="list" class="collection-list-2 w-dyn-items w-row">
@@ -1289,7 +1552,7 @@
                         <div itemprop="name" class="name">Seif El-Bakly</div>
                         <div itemprop="jobTitle" class="position">Interim CEO / COO</div>
                         <div itemprop="description" class="bio w-richtext">
-                          <p>Seif El-Bakly is Argo’s Chief Operating Officer. He has over 16 years' experience in the
+                          <p>Seif El-Bakly is Argo’s Chief Operating Officer. He has over 10 years' experience in the
                             capital markets and trading sectors. Prior to joining Argo, Seif founded a fintech startup
                             and
                             worked for TMX Group, where his responsibilities included leading the strategy and business
@@ -1465,11 +1728,12 @@
         </div>
       </div>
     </div>
-    <section id="partner" style="padding-top: 0px; padding-bottom: 60px;">
+    <!-- doi tac -->
+    <section id="partner" style="padding-top: 60px; padding-bottom: 0px;">
       <div class="" style="margin: 0px 1%;">
         <h2 style="color:white ; margin-bottom: 0px;
-        font-family: Graphik, sans-serif; display: flex; justify-content: center; width: 100%;
-        font-weight: 500;" data-i18n="title.700">More than 700 trusted business partners</h2>
+        font-family: Graphik, sans-serif; display: flex; justify-content: center; width: 100%; font-size: 20px;
+        font-weight: 500;" data-i18n="title.700">Our trusted business partners</h2>
         <div class="wrapper" style="margin: 50px ;">
           <div class="slider">
             <div class="slide-track">
@@ -1525,7 +1789,7 @@
                 <div class="">
                   <div class="card-client3">
                     <div class="user-picture1" style="margin-top: 4px;">
-                      <img src="./logo/digdis.png" alt="">
+                      <img style="margin-top: 10px;" src="./logo/digdis.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -1554,7 +1818,8 @@
                 <div class="">
                   <div class="card-client3">
                     <div class="user-picture1">
-                      <img src="https://www.eneteia.pl/wp-content/uploads/2016/05/logo_ID.jpg " alt="">
+                      <img style="margin-top: 10px;"
+                        src="https://www.eneteia.pl/wp-content/uploads/2016/05/logo_ID.jpg " alt="">
                     </div>
                   </div>
                 </div>
@@ -1563,7 +1828,7 @@
                 <div class="">
                   <div class="card-client3">
                     <div class="user-picture1">
-                      <img src="./assets/img/symphonic.jpg" alt="">
+                      <img style="margin-top: 10px;" src="./assets/img/symphonic.jpg" alt="">
                     </div>
                   </div>
                 </div>
@@ -1572,7 +1837,9 @@
                 <div class="">
                   <div class="card-client3">
                     <div class="user-picture1">
-                      <img src="data:image/png;base64,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" alt="">
+                      <img style="margin-top: 10px;"
+                        src="data:image/png;base64,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"
+                        alt="">
                     </div>
                   </div>
                 </div>
@@ -1581,7 +1848,7 @@
                 <div class="">
                   <div class="card-client3">
                     <div class="user-picture1">
-                      <img src="./logo/vydiaLogoShare.png" alt="">
+                      <img style="margin-top: 10px;" src="./logo/vydiaLogoShare.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -1593,255 +1860,13 @@
       </div>
     </section>
 
-    <section class="" style="padding: 20px 0px 0px 0px;">
-
-      <div class="container">
-        <div class="row">
-          <h2 id="DEDICATED_SERVER" class="font_title"
-            style="width: 100%; padding-top: 0px; text-align: center; font-size: 70px;"> <span
-              data-i18n="Dedicated.dedicated">Dedicated</span> <span class="highlight" data-i18n="Dedicated.server">
-              server rental
-              pricing</span>
-          </h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-4" style="margin-top: 70px;display: flex;justify-content: center;">
-
-            <div class="svg-frame">
-              <svg style="--i:0;--j:0;">
-                <g id="out1">
-                  <path
-                    d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z">
-                  </path>
-                  <path mask="url(#path-1-inside-1_111_3212)" stroke-miterlimit="16" stroke-width="2" stroke="#f9892e"
-                    d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z">
-                  </path>
-                </g>
-              </svg>
-
-              <svg style="--i:1;--j:1;">
-                <g id="out2">
-                  <mask fill="white" id="path-2-inside-2_111_3212">
-                    <path
-                      d="M102.892 127.966C93.3733 142.905 88.9517 160.527 90.2897 178.19L94.3752 177.88C93.1041 161.1 97.3046 144.36 106.347 130.168L102.892 127.966Z">
-                    </path>
-                    <path
-                      d="M93.3401 194.968C98.3049 211.971 108.646 226.908 122.814 237.541L125.273 234.264C111.814 224.163 101.99 209.973 97.2731 193.819L93.3401 194.968Z">
-                    </path>
-                    <path
-                      d="M152.707 92.3592C140.33 95.3575 128.822 101.199 119.097 109.421L121.742 112.55C130.981 104.739 141.914 99.1897 153.672 96.3413L152.707 92.3592Z">
-                    </path>
-                    <path
-                      d="M253.294 161.699C255.099 175.937 253.132 190.4 247.59 203.639L243.811 202.057C249.075 189.48 250.944 175.74 249.23 162.214L253.294 161.699Z">
-                    </path>
-                    <path
-                      d="M172 90.0557C184.677 90.0557 197.18 92.9967 208.528 98.6474C219.875 104.298 229.757 112.505 237.396 122.621L234.126 125.09C226.869 115.479 217.481 107.683 206.701 102.315C195.921 96.9469 184.043 94.1529 172 94.1529V90.0557Z">
-                    </path>
-                    <path
-                      d="M244.195 133.235C246.991 138.442 249.216 143.937 250.83 149.623L246.888 150.742C245.355 145.34 243.242 140.12 240.586 135.174L244.195 133.235Z">
-                    </path>
-                    <path
-                      d="M234.238 225.304C223.932 237.338 210.358 246.126 195.159 250.604C179.961 255.082 163.79 255.058 148.606 250.534L149.775 246.607C164.201 250.905 179.563 250.928 194.001 246.674C208.44 242.42 221.335 234.071 231.126 222.639L234.238 225.304Z">
-                    </path>
-                  </mask>
-                  <path mask="url(#path-2-inside-2_111_3212)" fill="#f9892e"
-                    d="M102.892 127.966L105.579 123.75L101.362 121.063L98.6752 125.28L102.892 127.966ZM90.2897 178.19L85.304 178.567L85.6817 183.553L90.6674 183.175L90.2897 178.19ZM94.3752 177.88L94.7529 182.866L99.7386 182.488L99.3609 177.503L94.3752 177.88ZM106.347 130.168L110.564 132.855L113.251 128.638L109.034 125.951L106.347 130.168ZM93.3401 194.968L91.9387 190.168L87.1391 191.569L88.5405 196.369L93.3401 194.968ZM122.814 237.541L119.813 241.54L123.812 244.541L126.813 240.542L122.814 237.541ZM125.273 234.264L129.272 237.265L132.273 233.266L128.274 230.265L125.273 234.264ZM97.2731 193.819L102.073 192.418L100.671 187.618L95.8717 189.02L97.2731 193.819ZM152.707 92.3592L157.567 91.182L156.389 86.3226L151.53 87.4998L152.707 92.3592ZM119.097 109.421L115.869 105.603L112.05 108.831L115.278 112.649L119.097 109.421ZM121.742 112.55L117.924 115.778L121.152 119.596L124.97 116.368L121.742 112.55ZM153.672 96.3413L154.849 101.201L159.708 100.023L158.531 95.1641L153.672 96.3413ZM253.294 161.699L258.255 161.07L257.626 156.11L252.666 156.738L253.294 161.699ZM247.59 203.639L245.66 208.251L250.272 210.182L252.203 205.569L247.59 203.639ZM243.811 202.057L239.198 200.126L237.268 204.739L241.88 206.669L243.811 202.057ZM249.23 162.214L248.601 157.253L243.641 157.882L244.269 162.842L249.23 162.214ZM172 90.0557V85.0557H167V90.0557H172ZM208.528 98.6474L206.299 103.123L206.299 103.123L208.528 98.6474ZM237.396 122.621L240.409 126.611L244.399 123.598L241.386 119.608L237.396 122.621ZM234.126 125.09L230.136 128.103L233.149 132.093L237.139 129.08L234.126 125.09ZM206.701 102.315L204.473 106.791L204.473 106.791L206.701 102.315ZM172 94.1529H167V99.1529H172V94.1529ZM244.195 133.235L248.601 130.87L246.235 126.465L241.83 128.83L244.195 133.235ZM250.83 149.623L252.195 154.433L257.005 153.067L255.64 148.257L250.83 149.623ZM246.888 150.742L242.078 152.107L243.444 156.917L248.254 155.552L246.888 150.742ZM240.586 135.174L238.22 130.768L233.815 133.134L236.181 137.539L240.586 135.174ZM234.238 225.304L238.036 228.556L241.288 224.759L237.491 221.506L234.238 225.304ZM195.159 250.604L196.572 255.4L196.572 255.4L195.159 250.604ZM148.606 250.534L143.814 249.107L142.386 253.899L147.178 255.326L148.606 250.534ZM149.775 246.607L151.203 241.816L146.411 240.388L144.983 245.18L149.775 246.607ZM194.001 246.674L195.415 251.47L195.415 251.47L194.001 246.674ZM231.126 222.639L234.379 218.841L230.581 215.589L227.329 219.386L231.126 222.639ZM98.6752 125.28C88.5757 141.13 83.8844 159.826 85.304 178.567L95.2754 177.812C94.0191 161.227 98.1709 144.681 107.109 130.653L98.6752 125.28ZM90.6674 183.175L94.7529 182.866L93.9976 172.895L89.912 173.204L90.6674 183.175ZM99.3609 177.503C98.1715 161.8 102.102 146.135 110.564 132.855L102.131 127.481C92.5071 142.585 88.0368 160.4 89.3895 178.258L99.3609 177.503ZM109.034 125.951L105.579 123.75L100.205 132.183L103.661 134.385L109.034 125.951ZM88.5405 196.369C93.8083 214.41 104.78 230.259 119.813 241.54L125.815 233.542C112.512 223.558 102.802 209.532 98.1397 193.566L88.5405 196.369ZM126.813 240.542L129.272 237.265L121.274 231.263L118.815 234.54L126.813 240.542ZM128.274 230.265C115.679 220.813 106.486 207.534 102.073 192.418L92.4735 195.221C97.493 212.412 107.948 227.513 122.272 238.263L128.274 230.265ZM95.8717 189.02L91.9387 190.168L94.7415 199.767L98.6745 198.619L95.8717 189.02ZM151.53 87.4998C138.398 90.681 126.188 96.8793 115.869 105.603L122.325 113.239C131.457 105.519 142.262 100.034 153.884 97.2187L151.53 87.4998ZM115.278 112.649L117.924 115.778L125.56 109.322L122.915 106.193L115.278 112.649ZM124.97 116.368C133.616 109.059 143.846 103.866 154.849 101.201L152.495 91.4818C139.981 94.5132 128.347 100.419 118.514 108.732L124.97 116.368ZM158.531 95.1641L157.567 91.182L147.848 93.5364L148.812 97.5185L158.531 95.1641ZM248.334 162.327C250.028 175.697 248.181 189.277 242.978 201.708L252.203 205.569C258.082 191.522 260.169 176.177 258.255 161.07L248.334 162.327ZM249.521 199.027L245.741 197.445L241.88 206.669L245.66 208.251L249.521 199.027ZM248.423 203.987C254.025 190.602 256.014 175.98 254.19 161.585L244.269 162.842C245.873 175.5 244.125 188.357 239.198 200.126L248.423 203.987ZM249.858 167.174L253.923 166.659L252.666 156.738L248.601 157.253L249.858 167.174ZM172 95.0557C183.903 95.0557 195.644 97.8172 206.299 103.123L210.757 94.1717C198.717 88.1761 185.45 85.0557 172 85.0557V95.0557ZM206.299 103.123C216.954 108.429 226.233 116.135 233.406 125.634L241.386 119.608C233.281 108.874 222.796 100.167 210.757 94.1717L206.299 103.123ZM234.383 118.631L231.113 121.1L237.139 129.08L240.409 126.611L234.383 118.631ZM238.116 122.077C230.393 111.849 220.403 103.552 208.93 97.8393L204.473 106.791C214.56 111.814 223.345 119.11 230.136 128.103L238.116 122.077ZM208.93 97.8393C197.458 92.1263 184.816 89.1529 172 89.1529V99.1529C183.269 99.1529 194.385 101.767 204.473 106.791L208.93 97.8393ZM177 94.1529V90.0557H167V94.1529H177ZM239.79 135.601C242.416 140.49 244.504 145.649 246.02 150.988L255.64 148.257C253.927 142.225 251.567 136.395 248.601 130.87L239.79 135.601ZM249.464 144.813L245.523 145.932L248.254 155.552L252.195 154.433L249.464 144.813ZM251.698 149.376C250.067 143.628 247.818 138.073 244.991 132.808L236.181 137.539C238.666 142.168 240.644 147.052 242.078 152.107L251.698 149.376ZM242.951 139.579L246.561 137.64L241.83 128.83L238.22 130.768L242.951 139.579ZM230.441 222.051C220.763 233.351 208.017 241.603 193.746 245.808L196.572 255.4C212.698 250.649 227.101 241.325 238.036 228.556L230.441 222.051ZM193.746 245.808C179.475 250.012 164.291 249.99 150.033 245.742L147.178 255.326C163.289 260.125 180.447 260.151 196.572 255.4L193.746 245.808ZM153.397 251.962L154.567 248.035L144.983 245.18L143.814 249.107L153.397 251.962ZM148.348 251.399C163.7 255.973 180.049 255.997 195.415 251.47L192.588 241.877C179.077 245.858 164.702 245.837 151.203 241.816L148.348 251.399ZM195.415 251.47C210.78 246.942 224.504 238.058 234.924 225.891L227.329 219.386C218.167 230.084 206.099 237.897 192.588 241.877L195.415 251.47ZM227.874 226.436L230.986 229.101L237.491 221.506L234.379 218.841L227.874 226.436Z">
-                  </path>
-                </g>
-              </svg>
-
-              <svg style="--i:0;--j:2;">
-                <g id="inner3">
-                  <path
-                    d="M195.136 135.689C188.115 131.215 179.948 128.873 171.624 128.946C163.299 129.019 155.174 131.503 148.232 136.099L148.42 136.382C155.307 131.823 163.368 129.358 171.627 129.286C179.886 129.213 187.988 131.537 194.954 135.975L195.136 135.689Z">
-                  </path>
-                  <path
-                    d="M195.136 208.311C188.115 212.784 179.948 215.127 171.624 215.054C163.299 214.981 155.174 212.496 148.232 207.901L148.42 207.618C155.307 212.177 163.368 214.642 171.627 214.714C179.886 214.786 187.988 212.463 194.954 208.025L195.136 208.311Z">
-                  </path>
-                  <path mask="url(#path-5-inside-3_111_3212)" fill="#f9892e"
-                    d="M195.136 135.689L195.474 135.904L195.689 135.566L195.351 135.352L195.136 135.689ZM171.624 128.946L171.627 129.346L171.624 128.946ZM148.232 136.099L148.011 135.765L147.678 135.986L147.899 136.32L148.232 136.099ZM148.42 136.382L148.086 136.603L148.307 136.936L148.641 136.716L148.42 136.382ZM171.627 129.286L171.63 129.686L171.627 129.286ZM194.954 135.975L194.739 136.313L195.076 136.528L195.291 136.19L194.954 135.975ZM195.136 208.311L195.351 208.648L195.689 208.433L195.474 208.096L195.136 208.311ZM171.624 215.054L171.627 214.654L171.624 215.054ZM148.232 207.901L147.899 207.68L147.678 208.014L148.011 208.234L148.232 207.901ZM148.42 207.618L148.641 207.284L148.307 207.063L148.086 207.397L148.42 207.618ZM171.627 214.714L171.63 214.314L171.627 214.714ZM194.954 208.025L195.291 207.81L195.076 207.472L194.739 207.687L194.954 208.025ZM195.351 135.352C188.265 130.836 180.022 128.473 171.62 128.546L171.627 129.346C179.874 129.274 187.966 131.594 194.921 136.026L195.351 135.352ZM171.62 128.546C163.218 128.619 155.018 131.127 148.011 135.765L148.453 136.432C155.33 131.88 163.38 129.418 171.627 129.346L171.62 128.546ZM147.899 136.32L148.086 136.603L148.753 136.161L148.566 135.878L147.899 136.32ZM148.641 136.716C155.463 132.199 163.448 129.757 171.63 129.686L171.623 128.886C163.287 128.958 155.15 131.447 148.199 136.049L148.641 136.716ZM171.63 129.686C179.812 129.614 187.839 131.916 194.739 136.313L195.169 135.638C188.138 131.158 179.959 128.813 171.623 128.886L171.63 129.686ZM195.291 136.19L195.474 135.904L194.799 135.474L194.617 135.76L195.291 136.19ZM194.921 207.974C187.966 212.406 179.874 214.726 171.627 214.654L171.62 215.454C180.022 215.527 188.265 213.163 195.351 208.648L194.921 207.974ZM171.627 214.654C163.38 214.582 155.33 212.12 148.453 207.567L148.011 208.234C155.018 212.873 163.218 215.38 171.62 215.454L171.627 214.654ZM148.566 208.122L148.753 207.838L148.086 207.397L147.899 207.68L148.566 208.122ZM148.199 207.951C155.15 212.553 163.287 215.041 171.623 215.114L171.63 214.314C163.448 214.243 155.463 211.801 148.641 207.284L148.199 207.951ZM171.623 215.114C179.959 215.187 188.138 212.842 195.169 208.362L194.739 207.687C187.839 212.084 179.812 214.386 171.63 214.314L171.623 215.114ZM194.617 208.239L194.799 208.526L195.474 208.096L195.291 207.81L194.617 208.239Z">
-                  </path>
-                </g>
-                <path stroke="#f9892e"
-                  d="M240.944 172C240.944 187.951 235.414 203.408 225.295 215.738C215.176 228.068 201.095 236.508 185.45 239.62C169.806 242.732 153.567 240.323 139.5 232.804C125.433 225.285 114.408 213.12 108.304 198.384C102.2 183.648 101.394 167.25 106.024 151.987C110.654 136.723 120.434 123.537 133.696 114.675C146.959 105.813 162.884 101.824 178.758 103.388C194.632 104.951 209.472 111.97 220.751 123.249"
-                  id="out3"></path>
-              </svg>
-
-              <svg style="--i:1;--j:3;">
-                <g id="inner1">
-                  <path fill="#f9892e"
-                    d="M145.949 124.51L148.554 129.259C156.575 124.859 165.672 122.804 174.806 123.331C183.94 123.858 192.741 126.944 200.203 132.236C207.665 137.529 213.488 144.815 217.004 153.261C220.521 161.707 221.59 170.972 220.09 179.997L224.108 180.665L224.102 180.699L229.537 181.607C230.521 175.715 230.594 169.708 229.753 163.795L225.628 164.381C224.987 159.867 223.775 155.429 222.005 151.179C218.097 141.795 211.628 133.699 203.337 127.818C195.045 121.937 185.266 118.508 175.118 117.923C165.302 117.357 155.525 119.474 146.83 124.037C146.535 124.192 146.241 124.349 145.949 124.51ZM224.638 164.522C224.009 160.091 222.819 155.735 221.082 151.563C217.246 142.352 210.897 134.406 202.758 128.634C194.62 122.862 185.021 119.496 175.06 118.922C165.432 118.367 155.841 120.441 147.311 124.914L148.954 127.91C156.922 123.745 165.876 121.814 174.864 122.333C184.185 122.87 193.166 126.019 200.782 131.421C208.397 136.822 214.339 144.257 217.928 152.877C221.388 161.188 222.526 170.276 221.23 179.173L224.262 179.677C224.998 174.671 225.35 169.535 224.638 164.522Z"
-                    clip-rule="evenodd" fill-rule="evenodd"></path>
-                  <path fill="#f9892e"
-                    d="M139.91 220.713C134.922 217.428 130.469 213.395 126.705 208.758L130.983 205.286L130.985 205.288L134.148 202.721C141.342 211.584 151.417 217.642 162.619 219.839C173.821 222.036 185.438 220.232 195.446 214.742L198.051 219.491C197.759 219.651 197.465 219.809 197.17 219.963C186.252 225.693 173.696 227.531 161.577 225.154C154.613 223.789 148.041 221.08 142.202 217.234L139.91 220.713ZM142.752 216.399C148.483 220.174 154.934 222.833 161.769 224.173C173.658 226.504 185.977 224.704 196.689 219.087L195.046 216.09C185.035 221.323 173.531 222.998 162.427 220.82C151.323 218.643 141.303 212.747 134.01 204.122L131.182 206.5C134.451 210.376 138.515 213.607 142.752 216.399Z"
-                    clip-rule="evenodd" fill-rule="evenodd"></path>
-                </g>
-              </svg>
-
-              <svg style="--i:2;--j:4;">
-                <path fill="#f9892e"
-                  d="M180.956 186.056C183.849 184.212 186.103 181.521 187.41 178.349C188.717 175.177 189.013 171.679 188.258 168.332C187.503 164.986 185.734 161.954 183.192 159.65C180.649 157.346 177.458 155.883 174.054 155.46C170.649 155.038 167.197 155.676 164.169 157.288C161.14 158.9 158.683 161.407 157.133 164.468C155.582 167.528 155.014 170.992 155.505 174.388C155.997 177.783 157.524 180.944 159.879 183.439L161.129 182.259C159.018 180.021 157.648 177.186 157.207 174.141C156.766 171.096 157.276 167.989 158.667 165.245C160.057 162.5 162.261 160.252 164.977 158.806C167.693 157.36 170.788 156.788 173.842 157.167C176.895 157.546 179.757 158.858 182.037 160.924C184.317 162.99 185.904 165.709 186.581 168.711C187.258 171.712 186.992 174.849 185.82 177.694C184.648 180.539 182.627 182.952 180.032 184.606L180.956 186.056Z"
-                  id="center1"></path>
-                <path fill="#f9892e"
-                  d="M172 166.445C175.068 166.445 177.556 168.932 177.556 172C177.556 175.068 175.068 177.556 172 177.556C168.932 177.556 166.444 175.068 166.444 172C166.444 168.932 168.932 166.445 172 166.445ZM172 177.021C174.773 177.021 177.021 174.773 177.021 172C177.021 169.227 174.773 166.979 172 166.979C169.227 166.979 166.979 169.227 166.979 172C166.979 174.773 169.227 177.021 172 177.021Z"
-                  id="center"></path>
-              </svg>
-
-            </div>
-
-          </div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-6 col-md-6">
-                <div class="sss">
-                  <h5 class="text_h5" data-i18n="Dedicated.name1"> High speed & Stability </h5>
-                  <p class="text_p" data-i18n="Dedicated.desc1"> Powerful servers with high-speed line managed by
-                    teachnican support team over 16
-                    years
-                    experience</p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <div class="sss">
-                  <h5 class="text_h5" data-i18n="Dedicated.name2">Management & Monitor </h5>
-                  <p class="text_p" data-i18n="Dedicated.desc2">Customers can track the amount of monthly bandwidth
-                    usage, and timely notification
-                    of
-                    incidents to have a reasonable plan to prepare upgradation</p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <div class="sss">
-                  <h5 class="text_h5" data-i18n="Dedicated.name3"> High Security </h5>
-                  <p class="text_p" data-i18n="Dedicated.desc3">Monitoring system work 24/7, dedicated firewall systems
-                    limit unauthorized access
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <div class="sss">
-                  <h5 class="text_h5" data-i18n="Dedicated.name4">24/7 Technical Supports </h5>
-                  <p class="text_p" data-i18n="Dedicated.desc4">We are top hosting provider with over 16 year
-                    experience, our team are always here
-                    to
-                    assist via email, livechat, and telephone</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section id="DEDICATED_SERVER_RENTAL" style="padding-top: 0px; padding-bottom: 60px;">
-      <div class="container">
-        <div class="row" style="justify-content: center; margin-top: 20px;">
-
-          <div class="u-center-text u-margin-top-huge" style="margin-top: 25px;">
-            <a href="" class="btn btn--green" data-i18n="title.ContactNow"> Contact Now</a>
-          </div>
-        </div>
-    </section>
-    <!-- real easte -->
-    <section id="real">
-      <div class="container">
-        <div class="row" style="display: flex; text-align: center; width: 100%;">
-          <h2 id="PropertyRental" class="font_title" style="width: 100%; padding-top: 0px; font-size: 60px;"> <span
-              data-i18n="RealEstate.Real">Real</span> <span class="highlight"
-              data-i18n="RealEstate.Estate">Estate</span>
-
-          </h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="row" style="width: 100%; justify-content: center;">
-              <h6 style="    font-size: 17px;" data-i18n="RealEstate.name1">Buy property
-              </h6>
-            </div>
-            <div class="row" style="width: 100%; justify-content: center;">
-              <img src="https://prismic-io.s3.amazonaws.com/99-content/f6fe0e91-edac-429f-bee9-15200e1d53be_BuyProperty.svg
-            " alt="">
-            </div>
-            <div class="row">
-              <p style="margin: 0 24px; text-align: center;" class="size-text" data-i18n="RealEstate.desc1">
-                If you’re looking for your ideal home, Xnight Group is the best place to find the latest resale
-                properties with
-                our user-friendly database of properties for sale such as HDB Resale, Executive Condos, Condos and
-                Houses for Sale. If you are looking for freehold properties, browse our Freehold Properties for Sale
-                for all your needs!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="row" style="width: 100%; justify-content: center;">
-              <h6 style="    font-size: 17px;" data-i18n="RealEstate.name2">Property rentals
-              </h6>
-            </div>
-            <div class="row" style="width: 100%; justify-content: center;">
-              <img src="https://prismic-io.s3.amazonaws.com/99-content/c69a3839-1753-48e6-a834-c6e9f9b60785_PropertyRentals.svg
-            " alt="">
-            </div>
-            <div class="row">
-              <p style="margin: 0 24px; text-align: center;" class="size-text" data-i18n="RealEstate.desc2">
-                Dive into the latest rental properties with our comprehensive rental properties library where you can
-                find the latest HDBs for Rent, Executive Condos for Rent, Houses for Rent, Condos for Rent. If you’re
-                looking for a room for rent instead, take a look at our Room Rental page for the latest rooms for
-                rent.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="row" style="width: 100%; justify-content: center;">
-              <h6 style="font-size: 17px;" data-i18n="RealEstate.name3">New Launch condos
-              </h6>
-            </div>
-            <div class="row" style="width: 100%; justify-content: center;">
-              <img src="https://prismic-io.s3.amazonaws.com/99-content/cfb3fd7a-8125-4210-a390-afc63c46ace1_NewLaunch.svg
-            " alt="">
-            </div>
-            <div class="row">
-              <p style="margin: 0 24px; text-align: center;" class="size-text" data-i18n="RealEstate.desc3">
-                In our New Launch section, you can find the latest New Launch projects and properties available in
-                Viet Nam. If you're looking for projects by their TOP date, browse the new launches that TOP 2022 up
-                to
-                TOP 2028, whereas if you're looking for a more general search, use New Launch Condos for Sale to
-                filter
-                between all new launch projects in Viet Nam.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="whyUs" class="why-us " style="color: #fff; padding: 50px 0px 50px 0px; ">
-      <div class="" style="text-align: center; margin: 0px 20%;">
-        <div class="section-title" style="padding-bottom: 10px;">
-          <h2 style="color: #fff; font-size: 60px;"><span data-i18n="WhyUs.why">Why</span> <span class="highlight"
-              data-i18n="WhyUs.us"> Us</span> </h2>
-        </div>
-        <p style="color: #ffffff9e; " class="size-text" data-i18n="WhyUs.desc1">With a 24/7 active team , we are ready
-          to support you and to
-          solve any type of
-          problem
-          or
-          answer any
-          question.</p>
-        <p style="color: #ffffff9e; " class="size-text" data-i18n="WhyUs.desc2">At Xnight Group, we don't just
-          specialize in one field - we
-          excel in multiple
-          industries. From YouTube MCN to crypto and music distribution, our diverse expertise equips us to guide you
-          through a range of exciting opportunities.</p>
-      </div>
-      </div>
-    </section>
     <!--- CUSTOMERS RECOMMEND-->
     <section id="recommend" style="padding-top: 120px;">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-4" style="margin: 0px 0px 0px 50px;">
-            <h2 id="Cryto" style="padding-top: 0px;color: #fff;font-size: 45px;justify-content: center;display: flex;"
+            <h2 id="Cryto" style="padding-top: 0px;color: #fff; font-size: 20px;justify-content: center;display: flex;"
               class="font_title" data-i18n="recommend.title">Hear From Our Customers</h2>
             <p class="simple-text security__description justify size-text" style="padding-top:10px;"
               data-i18n="recommend.desc">Mr Rooney,
@@ -1981,7 +2006,7 @@
                       d="M16.7 39.8C7.2 38.1 0 29.9 0 20 0 9 9 0 20 0s20 9 20 20c0 9.9-7.2 18.1-16.7 19.8l-1.1-.9h-4.4l-1.1.9z" />
                     <path fill="#fff"
                       d="m27.8 25.6.9-5.6h-5.3v-3.9c0-1.6.6-2.8 3-2.8H29V8.2c-1.4-.2-3-.4-4.4-.4-4.6 0-7.8 2.8-7.8 7.8V20h-5v5.6h5v14.1c1.1.2 2.2.3 3.3.3 1.1 0 2.2-.1 3.3-.3V25.6h4.4z" />
-                  </svg><span><a href="https://www.facebook.com/" class="link_contact">
+                  </svg><span><a href="https://www.facebook.com/lonely.boy27" target="_blank" class="link_contact">
                       <p style="margin: 0px; color: black; font-size: 14px;">Facebook</p>
                     </a></span>
                 </div>
@@ -2098,17 +2123,22 @@
                   <div class="sent-message">Your message has been . Thank you!</div>
                 </div>
                 <div class="text-center" style="display: flex; justify-content: center;">
-                  <button class="contactButton" type="submit">
-                    <span style="    min-width: 164px;  
-                    font-weight: 600px !important;  " data-i18n="title.SendMessage">Send Message</span>
-                    <div class="iconButton">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                        <path fill="none" d="M0 0h24v24H0z"></path>
-                        <path fill="currentColor"
-                          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
-                      </svg>
-                    </div>
-                  </button>
+                  <a href="https://www.facebook.com/lonely.boy27" target="_blank">
+
+                    <button class="contactButton" type="submit">
+                      <span style="    min-width: 164px;  
+                      font-weight: 600px !important;  " data-i18n="title.SendMessage"> Send Message </span>
+                      <div class="iconButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path fill="currentColor"
+                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                          </path>
+                        </svg>
+                      </div>
+                    </button>
+
+                  </a>
                 </div>
               </form>
             </div>
@@ -2132,6 +2162,7 @@
   <!-- Vendor JS Files -->
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"></script> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -2140,6 +2171,17 @@
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.11.1/i18next.min.js"></script>
   <script>
+    const labelImgEn = document.querySelector(".labelImg-en")
+    const labelImgVn = document.querySelector(".labelImg-vn")
+    const why1 = document.querySelector(".why1")
+    const why2 = document.querySelector(".why2")
+    labelImgEn.style.display = "block";
+    labelImgVn.style.display = "none";
+    why1.style.display = "block";
+    why2.style.display = "none";
+    $.i18n.setLng('en', function () {
+      $('body').i18n();
+    });
     $(function () {
       // Configuration
       // Add options
@@ -2154,6 +2196,10 @@
       // English
       if (i18n.lng() === "en") {
         // Set active class
+        labelImgEn.style.display = "block";
+        labelImgVn.style.display = "none";
+        why1.style.display = "block";
+        why2.style.display = "none";
         $('.language-switch .dropdown-menu li').removeClass('active');
         $('.english').parent().addClass('active');
         // Change language in dropdown
@@ -2165,6 +2211,10 @@
         $('.language-switch .dropdown-menu li').removeClass('active');
         $('.vietnam').parent().addClass('active');
         // Change language in dropdown
+        labelImgEn.style.display = "none";
+        labelImgVn.style.display = "block";
+        why2.style.display = "block";
+        why1.style.display = "none";
         $('.language-switch-current').html("Việt Nam ");
       }
 
@@ -2179,6 +2229,10 @@
         $('.language-switch .dropdown-menu li').removeClass('active');
         $('.english').parent().addClass('active');
         // Change name language in dropdown
+        labelImgEn.style.display = "block";
+        labelImgVn.style.display = "none";
+        why1.style.display = "block";
+        why2.style.display = "none";
         $('.language-switch-current').html("English ");
       });
       // Vietnam
@@ -2191,6 +2245,10 @@
         $('.language-switch .dropdown-menu li').removeClass('active');
         $('.vietnam').parent().addClass('active');
         // Change name language in dropdown
+        labelImgEn.style.display = "none";
+        labelImgVn.style.display = "block";
+        why2.style.display = "block";
+        why1.style.display = "none";
         $('.language-switch-current').html("Việt Nam ");
       });
     });

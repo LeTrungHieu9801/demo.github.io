@@ -3,13 +3,16 @@
         "home": "Trang chủ",
         "Services": "Dịch vụ",
         "Distribution": "Phân phối",
-        "YoutubeMCN": "Youtube MCN",
-        "CryptoVentures": "Dự án Crypto",
+        "YoutubeMCN": "Youtube - Tiktok MCN",
+        "CryptoVentures": "Crypto Ventures",
         "DedicatedServerRental": "Thuê máy chủ",
         "RealEstate": "Bất động sản",
         "OurTeam": "Đội ngũ",
         "WhyUs": "Tại sao chọn chúng tôi",
-        "ContactUs": "Liên hệ với chúng tôi"
+        "ContactUs": "Liên hệ với chúng tôi",
+        "Label": "Dịch vụ Label",
+        "title": "Âm nhạc, quản lý, đổi mới và công nghệ",
+        "subtitle": "Chúng tôi là sự lựa chọn linh hoạt cho nhu cầu của bạn!"
     },
     "title": {
         "MusicDistribution": "Phân phối âm nhạc",
@@ -23,9 +26,22 @@
         "CryptoVentures": "Dự án Crypto",
         "WhyUs": "Tại sao chọn chúng tôi",
         "Contact": "Liên hệ với chúng tôi",
-        "700": "Hơn 700 đối tác kinh doanh đáng tin cậy",
+        "700": "Những đối tác kinh doanh đáng tin cậy của chúng tôi",
         "ContactNow": "Liên hệ ngay",
-        "SendMessage": "Gửi tin nhắn"
+        "SendMessage": "Gửi tin nhắn",
+        "OurTeam": "Đội ngũ của chúng tôi"
+    },
+    "OurTeam":{
+        "our": "Đội ngũ của",
+        "team": "Chúng tôi",
+        "name1": "",
+        "desc1": "",
+        "name2": "",
+        "desc2": "",
+        "name3": "",
+        "desc3": "",
+        "name4": "",
+        "desc4": ""
     },
     "MusicDistribution": {
         "Music": "Phân phối",
@@ -83,9 +99,9 @@
         "name1": "Mua bất động sản",
         "desc1": "Nếu bạn đang tìm kiếm ngôi nhà lý tưởng của mình, Xnight Group là nơi tốt nhất để tìm các bất động sản mới nhất với cơ sở dữ liệu thân thiện với người dùng về các bất động sản đang bán như HDB Resale, căn hộ, căn hộ cao cấp, nhà ở. Nếu bạn đang tìm kiếm các bất động sản có thời hạn sở hữu lâu dài, hãy truy cập trang Bất động sản có thời hạn sở hữu lâu dài để tìm tất cả các nhu cầu của bạn!",
         "name2": "Cho thuê bất động sản",
-        "desc2": "Tìm hiểu các bất động sản cho thuê mới nhất với thư viện bất động sản cho thuê toàn diện của chúng tôi, nơi bạn có thể tìm thấy các HDB cho thuê mới nhất, Executive Condos cho thuê, Houses cho thuê, Condos cho thuê. Nếu bạn đang tìm kiếm một phòng cho thuê, hãy xem trang Cho thuê phòng của chúng tôi để biết các phòng cho thuê mới nhất.",
+        "desc2": "Tìm hiểu các bất động sản cho thuê mới nhất với thư viện bất động sản cho thuê toàn diện của chúng tôi, nơi bạn có thể tìm thấy các HDB cho thuê mới nhất, cho thuê căn hộ cao cấp, cho thuê nhà, cho thuê căn hộ. Nếu bạn đang tìm kiếm một phòng cho thuê, hãy xem trang Cho thuê phòng của chúng tôi để biết các phòng cho thuê mới nhất.",
         "name3": "Căn hộ mới mở bán",
-        "desc3": "Trong phần Mới mở bán, bạn có thể tìm thấy các dự án và bất động sản Mới mở bán mới nhất có sẵn ở Singapore. Nếu bạn đang tìm kiếm các dự án theo ngày TOP, hãy duyệt qua các dự án mới mở bán từ TOP 2022 đến TOP 2028, trong khi nếu bạn đang tìm kiếm một tìm kiếm chung hơn, hãy sử dụng Căn hộ mới mở bán để lọc giữa tất cả các dự án mới mở bán ở Việt Nam."
+        "desc3": "Trong phần Mới mở bán, bạn có thể tìm thấy các dự án và bất động sản Mới mở bán mới nhất có sẵn ở Việt Nam. Nếu bạn đang tìm kiếm các dự án theo ngày TOP, hãy duyệt qua các dự án mới mở bán từ TOP 2022 đến TOP 2028, trong khi nếu bạn đang tìm kiếm một tìm kiếm chung hơn, hãy sử dụng Căn hộ mới mở bán để lọc giữa tất cả các dự án mới mở bán ở Việt Nam."
     },
     "Dedicated": {
         "dedicated": "Thuê",
@@ -98,7 +114,7 @@
         "name3": "Bảo mật cao",
         "desc3": "Hệ thống giám sát hoạt động 24/7, hệ thống tường lửa chuyên dụng giới hạn quyền truy cập trái phép",
         "name4": "Hỗ trợ Kỹ thuật 24/7",
-        "desc4": "Chúng tôi là nhà cung cấp hosting hàng đầu với hơn 16 năm kinh nghiệm, đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ qua email, trò chuyện trực tiếp và điện thoại"
+        "desc4": "Chúng tôi là nhà cung cấp hosting hàng đầu với hơn 10 năm kinh nghiệm, đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ qua email, trò chuyện trực tiếp và điện thoại"
         
     },
     "recommend": {
@@ -110,5 +126,12 @@
         "desc2": " \" Xnight Group đã hợp tác một cách rất tích cực trong suốt quá trình phát triển. Họ đã tuân theo các thời hạn đã được định trước. Tổng quan, khách hàng đánh giá cao tính chuyên nghiệp, trực tiếp và tập trung vào mục tiêu của họ, luôn đảm bảo tính đúng hẹn và chất lượng cao \"",
         "name3": "Bruno Guez - Founder & CEO",
         "desc3": " \" Đội ngũ của Xinght Group đáp ứng thành công các yêu cầu và sản phẩm cần cung cấp. Phong cách làm việc hợp tác và tài năng chất lượng cao của họ đã nhận được phản hồi tích cực từ phía khách hàng; sự hiểu biết của họ về dự án đã thực sự ấn tượng. Ngoài ra, họ phản hồi nhanh chóng và linh hoạt. \""
+    },
+    "Label": {
+        "Label": " Dịch vụ" ,
+        "service": "Label",
+        "desc": "Dịch vụ Label gia tăng tầm ảnh hưởng của các nghệ sĩ và bộ phận quản lý của họ để xây dựng các Label. Những Label mà mọi người yêu thích. Những label thúc đẩy các nghệ sĩ có kinh nghiệm tiến lên một bậc. Và giúp những tài năng trẻ nổi lên đỉnh cao.",
+        "desc1": " Chúng tôi thích làm cho điều bạn giỏi trở nên mạnh mẽ hơn. Và hỗ trợ bạn khi bạn gặp khó khăn. Cùng nhau, như một đội. Bởi vì đó là cách chúng tôi đạt được thành công lớn nhất, thông qua việc làm việc cùng nhau. Để bạn có thể xuất sắc trong việc bạn yêu thích làm",
+        "desc2": "Ngành công nghiệp âm nhạc không ngừng thay đổi. Mỗi ngày, những cơ hội mới xuất hiện và cách làm việc cũ mất đi tác dụng. Xnight Group giúp các công ty âm nhạc luôn dẫn đầu trong cuộc chơi của họ. Bằng cách cung cấp các chiến lược gia dày dạn kinh nghiệm, các chuyên gia nội bộ và công nghệ hàng đầu để tạo động lực khi có cơ hội."
     }
 }

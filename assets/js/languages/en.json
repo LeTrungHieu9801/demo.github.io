@@ -2,14 +2,17 @@
     "header": {
         "home": "Home",
         "Services" : "Services",
-        "Distribution": "Distribution",
-        "YoutubeMCN": "Youtube MCN",
+        "Distribution": "Music Distribution",
+        "YoutubeMCN": "Youtube - Tiktok MCN",
         "CryptoVentures": "Crypto Ventures",
         "DedicatedServerRental": "Dedicated Server Rental",
-        "RealEstate": "Real estate",
-        "OurTeam": "Our team",
-        "WhyUs": "Why us",
-        "ContactUs": "Contact Us"
+        "RealEstate": "Real Estate",
+        "OurTeam": "Our Team",
+        "WhyUs": "Why Us",
+        "ContactUs": "Contact Us",
+        "Label": "Label Services",
+        "title": "Music, management, innovation and technology",
+        "subtitle": "We're the versatile choice for your needs!"
     },
     "title": {
         "MusicDistribution": "Music distribution",
@@ -23,14 +26,27 @@
         "CryptoVentures": "Crypto ventures",
         "WhyUs": "Why Us",
         "Contact": "Contact Us",
-        "700": "More than 700 trusted business partners",
+        "700": "Our trusted business partners",
         "ContactNow": " Contact Now",
-        "SendMessage": "Send Message"
+        "SendMessage": "Send Message",
+        "OurTeam": "Our Team"
+    },
+    "OurTeam":{
+        "our": "Our",
+        "team": "Team",
+        "name1": "",
+        "desc1": "",
+        "name2": "",
+        "desc2": "",
+        "name3": "",
+        "desc3": "",
+        "name4": "",
+        "desc4": ""
     },
     "MusicDistribution": {
         "Music": "Music",
         "distribution": "distribution",
-        "desc": "Regardless of your career level, Xnight Group helps you. Sell your music worldwide, in stores like Spotify, Tidal, or Apple Music. Create a free account, upload the necessary files, and select the platforms where your music will be distributed. Automatic processes for revenue collecting data are used for your downloads and streams of profits. You keep 100% of the rights to your music, and we do not charge a fee for it."
+        "desc": "Regardless of your career level,Xnight Group helps you.Sell your music worldwide, in stores like Spotify,Tidal,or Apple Music.Create a free account, upload the necessary files, and select the platforms where your music will be distributed. Automatic processes for revenue collecting data are used for your downloads and streams of profits. You keep 100% of the rights to your music, and we do not charge a fee for it."
     },
     "OurApproach": {
         "desc": "Our approach focuses on delivering a better user experience for customers by addressing different music environments. We achieve this through our three-phase process.",
@@ -49,7 +65,7 @@
         "name2": "Property rentals",
         "desc2": "Dive into the latest rental properties with our comprehensive rental properties library where you can find the latest HDBs for Rent, Executive Condos for Rent, Houses for Rent, Condos for Rent. If you’re looking for a room for rent instead, take a look at our Room Rental page for the latest rooms for rent.",
         "name3": "New Launch condos",
-        "desc3": "In our New Launch section, you can find the latest New Launch projects and properties available in Singapore. If you're looking for projects by their TOP date, browse the new launches that TOP 2022 up to TOP 2028, whereas if you're looking for a more general search, use New Launch Condos for Sale to filter between all new launch projects in Viet Nam."
+        "desc3": "In our New Launch section, you can find the latest New Launch projects and properties available in Viet Nam. If you're looking for projects by their TOP date, browse the new launches that TOP 2022 up to TOP 2028, whereas if you're looking for a more general search, use New Launch Condos for Sale to filter between all new launch projects in Viet Nam."
     },
     "OurWork": {
         "desc": "We distribute your music to every download and streaming portal on the planet. This way, we guarantee that your fans can find your songs all over the world. We work with over 150 download and streaming partners, so your music will be available to fans in every corner of the globe.",
@@ -93,13 +109,13 @@
         "server": "server rental pricing",
         "title": "Dedicated server rental pricing",
         "name1": "High speed & Stability",
-        "desc1": "Powerful servers with high-speed line managed by teachnican support team over 16 years experience",
+        "desc1": "Powerful servers with high-speed line managed by teachnican support team over 10 years experience",
         "name2": "Management & Monitor",
         "desc2": "Customers can track the amount of monthly bandwidth usage, and timely notification of incidents to have a reasonable plan to prepare upgradation",
         "name3": "High Security",
         "desc3": "Monitoring system work 24/7, dedicated firewall systems limit unauthorized access",
         "name4": "24/7 Technical Supports",
-        "desc4": "We are top hosting provider with over 16 year experience, our team are always here to assist via email, livechat, and telephone"
+        "desc4": "We are top hosting provider with over 10 years experience, our team are always here to assist via email, livechat, and telephone"
         
     },
     "recommend":{
@@ -108,8 +124,15 @@
         "name1": "Littleton - General Director",
         "desc1": "\"  Xnight Group’ is an accommodating and attentive partner. Flexible and reliable, the team is quick to adapt to the client's working style and is able to scale as needed. They go above and beyond to deliver on their promises and provide valuable recommendations. \"",
         "name2": "Littleton - General Director",
-        "desc2": "\" Xinght Group’ team successfully meets their requirements and deliverables. Their collaborative approach and high-quality talents have earned positive feedback from the client; their understanding of the project has been impressive. Additionally, they are prompt, responsive, and flexible. \"",
+        "desc2": "\" Xnight Group was highly cooperative throughout the development. They stuck with their pre-estimated timelines, as well. Overall, the client highly regarded their highly proactive, direct, and goal-oriented nature that remained timely and high-quality. \"",
         "name3": "Bruno Guez - Founder & CEO",
         "desc3": "\" Xinght Group’ team successfully meets their requirements and deliverables. Their collaborative approach and high-quality talents have earned positive feedback from the client; their understanding of the project has been impressive. Additionally, they are prompt, responsive, and flexible. \""
+    },
+    "Label": {
+        "Label": "Label",
+        "service": "service",
+        "desc": "Label services ampliflies artists and their management to build record labels. Record labels that people love. That push seasoned artists to the next level. And help young talent to rise to the top.",
+        "desc1": " We like to amplify what you’re great at. And help out where you face challenges. Together, as a team. Because that’s how we achieve the biggest success, by working together. So you can excel at what you love doing. ",
+        "desc2": "The music industry is constantly changing. Every day, new opportunities arise, and old ways of working lose impact. Xnight Group helps music companies to stay on top of their game. By providing seasoned strategists, in-house specialists and top of line technology to create momentum when the opportunity arises."
     }
 }
