@@ -12,7 +12,8 @@
         "ContactUs": "Contact Us",
         "Label": "Label Services",
         "title": "Music, management, innovation and technology",
-        "subtitle": "We're the versatile choice for your needs!"
+        "subtitle": "We're the versatile choice for your needs!",
+        "FeaturedArtists": "Featured Artists"
     },
     "title": {
         "MusicDistribution": "Music distribution",
@@ -35,7 +36,8 @@
     "OurTeam":{
         "our": "Our",
         "team": "Team",
-        "name1": "",
+        "name1": "Ngo The Tuan",
+        "jobTitle1": "General Director",
         "desc1": "",
         "name2": "",
         "desc2": "",

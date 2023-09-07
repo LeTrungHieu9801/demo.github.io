@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="./assets/css/card_js_2.css">
   <link rel="stylesheet" href="./assets/css/test.css">
   <link rel="stylesheet" href="./assets/css/real_este.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
   <style type="text/css">
     .carousel-item {
       height: 400px;
@@ -267,7 +268,7 @@
   <header id="header" class="fixed-top bg-blur">
     <div class=""
       style="padding: 0px 0px 5px 0px; display: flex;flex-direction: row; justify-content: space-between;  height: 59px; margin: 0px 10%;">
-      <div class="logo" style="display: flex;">
+      <div class="logo" style="display: flex; cursor: pointer;">
         <!-- <h1 class="text-light"><a href="index.html"><span>Our-Compnay Associate</span></a></h1> -->
         <a href="index.html"><img src="assets/img/logo_white.svg" style="width: 50px;height: 50px;" alt=""
             class="img-fluid"></a>
@@ -324,11 +325,11 @@
   <div class="video-container">
     <video autoplay loop muted>
       <source src="./assets/img/band1.mp4" type="video/mp4">
-      Your browser does not support the video tag.
     </video>
     <div class="hero-container">
       <div class="row" , style="height: 100%; padding-top: 100px;">
-        <div class="col-lg-4" style="display: flex; justify-content: center; margin-top: 180px; margin-left: 5%;">
+        <div class="col-lg-4 header_containner"
+          style="display: flex; justify-content: center; margin-top: 180px; margin-left: 5%;">
           <div class="row text_service" style="color: white ; font-size: 70px;">
             <div class="content2">
               <h1 id="title22" class="title2" data-i18n="header.title">Music, management, innovation and technology
@@ -413,8 +414,7 @@
             </p>
 
             <div style="display: flex; justify-content: center; width: 100;">
-              <a href="#" class="btn btn--green"
-                style="width: 200px; margin-top: 0px; margin-right: 90px; max-height: 60px;"
+              <a href="#" class="btn btn--green" style="width: 200px; margin-top: 0px;  max-height: 60px;"
                 data-i18n="title.JoinNow">Join now</a>
             </div>
           </div>
@@ -426,7 +426,7 @@
 
     <!-- ======= Call To Action Section ======= -->
     <section class="call-to-action">
-      <div class="" style="margin: 0 12%;">
+      <div class="call-to-action_Container" style="margin: 0 12%;">
         <div class="text-center">
           <div class="section-title">
             <h2 style="color: #fff;" class="font_title" data-i18n="title.OurApproach">Our Approach</h2>
@@ -478,7 +478,7 @@
         <div class="section-title">
           <div class="row">
             <div class="col-lg-6"
-              style="display: flex; justify-content: flex-end; align-items: center; border-radius: 20px;">
+              style="display: flex; justify-content: center; align-items: center; border-radius: 20px;">
               <img
                 style="width: 450px ; height: 300px; border-radius: 20px; border: solid 2px #f9892e ; margin-top: 20px;"
                 src="./assets/img/aaa.jpg" alt="">
@@ -571,7 +571,7 @@
         <div class="" style="margin: 0px 1%;">
           <h2 style="color:white ; margin-bottom: 0px;
           font-family: Graphik, sans-serif; display: flex; justify-content: center; width: 100%;
-          font-weight: 500;">Featured Artists</h2>
+          font-weight: 500;" data-i18n="header.FeaturedArtists">Featured Artists</h2>
           <div class="wrapper" style="margin: 50px;">
             <div class="slider">
 
@@ -864,8 +864,9 @@
             </div>
           </div>
           <div class="col-lg-3">
-            <img class="imgYTB" style="width: 300px; margin-left: 20%; margin-bottom: 10%;" src="./assets/img/mcn.png"
-              alt="">
+            <img class="imgYTB"
+              style="width: 300px; margin-left: 20%; margin-bottom: 10%; display: flex; justify-content: center;"
+              src="./assets/img/mcn.png" alt="">
           </div>
         </div>
       </div>
@@ -876,7 +877,7 @@
       </div>
 
       <div class="row" style="width: 100%;">
-        <div class="j col-lg-4">
+        <div class="j col-lg-4" style="margin-bottom: 8px;">
           <!-- 1 -->
           <div class="card9">
             <div class="card__side card__side--front-1">
@@ -894,7 +895,7 @@
           </div>
         </div>
         <!-- 2 -->
-        <div class="j col-lg-4">
+        <div class="j col-lg-4" style="margin-bottom: 8px;">
           <div class="card9">
             <div class="card__side card__side--front-1">
               <div class="card__title card__title--2">
@@ -911,7 +912,7 @@
           </div>
         </div>
         <!-- 3 -->
-        <div class="j col-lg-4">
+        <div class="j col-lg-4" style="margin-bottom: 8px;">
           <div class="card9">
             <div class="card__side card__side--front-1">
               <div class="card__title card__title--3">
@@ -929,8 +930,8 @@
         </div>
       </div>
 
-      <div class="u-center-text u-margin-top-huge" style="margin-top: 40px;">
-        <a href="#" class="btn btn--green">Get Started</a>
+      <div class="u-center-text u-margin-top-huge" style="margin-top: 40px; ">
+        <a href="#" style="height: 60px" class="btn btn--green" data-i18n="title.GetStarted"> Get Started</p></a>
       </div>
     </section>
     <!-- End Our Team Section -->
@@ -953,7 +954,7 @@
               market
               but constantly faced challenging obstacles? Let us help you turn your dreams into reality! At Xnight
               Group, we take pride in being your trusted partner on your investment journey.&nbsp;</p>
-            <div style="display: flex; justify-content: center; width: 100%; margin-top: 40px;">
+            <div class="buton" style="display: flex; justify-content: center; width: 100%; margin-top: 40px;">
               <a style="width: 200px; margin-top: 0px;" class="btn btn--green" href="#"
                 data-i18n="CryptoVentures.Learn">Learn more</a>
             </div>
@@ -968,7 +969,7 @@
     </section>
 
     <section class="" style="padding-bottom: 0px; padding-top: 90px;">
-      <div class="" style="margin: 0 10%;">
+      <div class="dedicatedContainer" style="margin: 0 10%;">
         <div class="row">
           <h2 id="DEDICATED_SERVER" class="font_title"
             style="width: 100%; padding-top: 0px; text-align: center; font-size: 70px;"> <span
@@ -978,7 +979,8 @@
           </h2>
         </div>
         <div class="row">
-          <div class="col-lg-4" style="margin-top: 60px; display: flex;justify-content: flex-end;">
+
+          <div class="col-lg-4" style="margin-top: 60px; display: flex; justify-content: flex-end;">
 
             <div class="svg-frame">
 
@@ -1186,10 +1188,7 @@
             </div>
           </div>
         </div>
-
-    
       </div>
-
     </section>
 
     <section id="whyUs" class=" " style="color: #fff; padding: 10px 0px 70px 0px; background-image: url(./assets/img/bia.svg);       -webkit-background-size: cover; -moz-background-size: cover;
@@ -1200,21 +1199,8 @@
           <h2 style="color: #fff; font-size: 70px;"><span data-i18n="WhyUs.why">Why</span> <span class="highlight"
               data-i18n="WhyUs.us"> Us</span> </h2>
         </div>
-        <!-- <p style="color: #ffffff9e; " class="size-text" data-i18n="WhyUs.desc1">With a 24/7 active team , we are ready
-          to support you and to
-          solve any type of
-          problem
-          or
-          answer any
-          question.</p>
-        <p style="color: #ffffff9e; " class="size-text" data-i18n="WhyUs.desc2">At Xnight Group, we don't just
-          specialize in one field - we
-          excel in multiple
-          industries. From YouTube MCN to crypto and music distribution, our diverse expertise equips us to guide you
-          through a range of exciting opportunities.</p> -->
       </div>
       </div>
-
       <input id="deep-purple" name="theme" type="radio" checked="checked" />
       <input id="gold" name="theme" type="radio" />
       <input id="space-black" name="theme" type="radio" />
@@ -1222,19 +1208,6 @@
       <input id="random" name="theme" type="radio" />
       <input id="zoom" name="zoom" type="checkbox" />
       <div class="scene">
-        <!-- <div class="pallette">
-    <label class="swatch" tabIndex="0" for="deep-purple"></label>
-    <label class="swatch" tabIndex="0" for="gold"></label>
-    <label class="swatch" tabIndex="0" for="space-black"></label>
-    <label class="swatch" tabIndex="0" for="silver"></label>
-    <label class="swatch" tabIndex="0" for="random">
-      <div class="icon"></div>
-      <div class="tooltip">CMD + click to save</div>
-    </label>
-  </div> -->
-        <!-- <div class="zoom-con">
-    <label class="swatch" tabIndex="0" for="zoom"></label>
-  </div> -->
         <div class="phone-con">
           <div class="phone">
             <div class="buttons">
@@ -1349,13 +1322,12 @@
                         alt="" onclick="clickOurTeam('abc1')" class="image-40"></a>
                   </div>
                   <div class="row">
-                    <div class="col-lg-5 col-11"><img
-                        src="https://assets.website-files.com/6192808c25837d3716982433/634ff7dcde84c019243ab693_Jason%20Hover%20(2).png"
-                        loading="lazy" itemprop="image" alt="" class="image-19"></div>
+                    <div class="col-lg-5 col-11"><img src="./assets/img/our_team/NTT.png" loading="lazy"
+                        itemprop="image" alt="" class="image-19"></div>
                     <div class="col-lg-7">
                       <div class="member-info-text">
-                        <div itemprop="name" class="name">Jason Zaluski</div>
-                        <div itemprop="jobTitle" class="position">VP of Mining</div>
+                        <div itemprop="name" class="name" data-i18n="OurTeam.name1">Ngo The Tuan</div>
+                        <div itemprop="jobTitle" class="position" data-i18n="OurTeam.jobTitle1">General Director</div>
                         <div itemprop="description" class="bio w-richtext">
                           <p>Jason brings a wealth of knowledge and expertise to Argo from his previous experiences in
                             the
@@ -1377,17 +1349,14 @@
               </div>
               <div onclick="clickOurTeam('abc1')" class="member">
                 <div data-w-id="f44f2753-c40d-7b2b-3fde-9017f8375a12" class="headshots">
-                  <img
-                    src="https://assets.website-files.com/6192808c25837d3716982433/634ff7dcde84c019243ab693_Jason%20Hover%20(2).png"
-                    loading="lazy" alt="" class="headshotonhover" style="opacity: 0;">
+                  <img src="./assets/img/our_team/NTT.png" loading="lazy" alt="" class="headshotonhover"
+                    style="opacity: 0;">
 
-                  <img
-                    src="https://assets.website-files.com/6192808c25837d3716982433/634ff7e1cb905bf9fb4c1710_Jason%20Standard%20(2).png"
-                    loading="lazy" alt="" class="headshot" style="opacity: 1;">
+                  <img src="./assets/img/our_team/NTT.png" loading="lazy" alt="" class="headshot" style="opacity: 1;">
                 </div>
               </div>
-              <div class="member-name">Jason Zaluski</div>
-              <div class="member-position">VP of Mining</div>
+              <div class="member-name" data-i18n="OurTeam.name1">Ngo The Tuan</div>
+              <div class="member-position" data-i18n="OurTeam.jobTitle1">General Director</div>
             </div>
             <!-- MEMBER1 -->
             <div itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="mainEntity" data-w-id="abc2"
@@ -1409,7 +1378,7 @@
                         loading="lazy" itemprop="image" alt="" class="image-19"></div>
                     <div class="col-lg-7">
                       <div class="member-info-text">
-                        <div itemprop="name" class="name">Alana Marks</div>
+                        <div itemprop="name" class="name" d>Alana Marks</div>
                         <div itemprop="jobTitle" class="position">VP of People &amp; Culture</div>
                         <div itemprop="description" class="bio w-richtext">
                           <p>Alana is Argo’s VP People &amp; Culture, drawing on over 10 years of experience in human
@@ -1866,7 +1835,7 @@
 
     <!--- CUSTOMERS RECOMMEND-->
     <section id="recommend" style="padding: 120px 0px 150px 0px;">
-      <div class="" style="margin: 0 15%;">
+      <div class="recommend_check" style="margin: 0 15%;">
         <div class="row" style="width: 100%;">
           <div class="col-lg-6" style="margin: 0px 0px 0px 50px;">
             <h2 id="Cryto" style="" class="font_title"><span data-i18n="recommend.title">Hear From Our</span> <span
@@ -1946,7 +1915,7 @@
                   </div>
                   <p data-i18n="recommend.desc3" class="text-content"
                     style="font-size: 16px; padding: 0px 15%; text-align: justify;">
-                    " Xinght Group’ team successfully meets their requirements and deliverables. Their
+                    " Xinght Group team successfully meets their requirements and deliverables. Their
                     collaborative approach and high-quality talents have earned positive feedback from the client;
                     their understanding of the project has been impressive. Additionally, they are prompt, responsive,
                     and flexible. " </p>
@@ -1954,11 +1923,11 @@
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only" data-i18n="title.Previous">Previous</span>
               </a>
               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only" data-i18n="title.Next">Next</span>
               </a>
             </div>
           </div>
@@ -1971,42 +1940,152 @@
 
   <!-- ======= Footer ======= -->
 
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="cta-text">
 
+                <h4> Find us</h4>
 
-  <footer style="background-color: #1e1e1e;">
+                <span>1942 Broadway St. STE 314C , Boulder ,
+                  </span> <br>
+<!-- 
+                <span>
+                  Đ. Nguyễn Văn Huyên, Quan Hoa, Cầu Giấy, Hà Nội, Việt Nam
+                </span>  -->
 
-    <div class="zalo-chat-widget" data-oaid="	3821370744602418116"
-    data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="300"
-    data-height="200"
-    > </div>
-    <!-- ======= Contact Us Section ======= -->
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-phone"></i>
+              <div class="cta-text">
+                <h4>Call us</h4>
+                <span>+1 205 775 6048</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="far fa-envelope-open"></i>
+              <div class="cta-text">
+                <h4>Mail us</h4>
+                <span>mail@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo" style="margin-bottom: 20px;">
+                <div class="logo" style="display: flex; cursor: pointer;">
+                  <!-- <h1 class="text-light"><a href="index.html"><span>Our-Compnay Associate</span></a></h1> -->
+                  <a href="index.html"><img src="assets/img/logo_white.svg" style="width: 80px;height: 80px;" alt=""
+                      class="img-fluid"></a>
+                  <span class="Text_logo" style="margin-top: 22px;"> Xnight Group</span>
+                </div>
+              </div>
+              <!-- <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
+                  tetur adipisicing
+                  elit,Lorem ipsum dolor sit amet.</p>
+              </div> -->
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30" style="margin-top: 10px;">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Expert Team</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Latest News</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50" style="margin-top: 10px;">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Don’t miss to subscribe to our new feeds</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="text" placeholder="Email Address">
+                  <button><i class="fab fa-telegram-plane"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Xnight Group &copy; <a href="/"></a></p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="zalo-chat-widget" data-oaid="	3821370744602418116" data-welcome-message="Rất vui khi được hỗ trợ bạn!"
+      data-autopopup="0" data-width="300" data-height="200"> </div>
+  </footer>
+
+  <!-- <footer style="background-color: #acacac;  ">
+
+ 
+ 
 
     <section id="contact" class="contact section-bg" style="padding: 0px;">
       <div class="">
-        <div class="row">
-          <div class="col-lg-3">
+        <div class="row" >
+
+          <div class="col-lg-2"></div>
+          <div class="col-lg-2" style="text-align: center; ">
             <div class="row">
-              <div class="col-lg-6"><img
-                  src="https://res.cloudinary.com/dvn4ozd0r/image/upload/f_auto,q_auto/v1/img%20vn/whjsllreebnebu5qc7qi"
-                  alt="" srcset=""></div>
-              <div class="col-lg-6">
-                <div class="row">
-                  <p style="font-size: 30px; margin-top: 40px;">Xnight <b>Group</b></p>
-                </div>
-                <div class="row">
-                  &copy; Xnight Group LLC.<br />
-                </div>
-
-
-              </div>
+              <h4 style="font-size: 35px; color: #fff " class="footerProduct">Products</h4>
             </div>
-
-          </div>
-          <div class="col-lg-2" style="text-align: center;">
-            <div class="row">
-              <h4 style="font-size: 35px; ">Products</h4>
-            </div>
-            <div class="row">
+            <div class="row" style="color: #c0c0c0; margin-top: 20px;">
               <p class="row" style="width: 100%;" data-i18n="header.Distribution">Distribution </p>
               <p class="row" style="width: 100%;" ddata-i18n="header.Label">Label Services </p>
               <p class="row" style="width: 100%;" data-i18n="header.YoutubeMCN">Youtube - Tiktok MCN </p>
@@ -2015,24 +2094,20 @@
               <p class="row" style="width: 100%;" data-i18n="header.RealEstate">Real estate </p>
             </div>
           </div>
-          <div class="col-lg-3">
-            <p style="font-size: 35px; ">Contact Us </p>
+          <div class="col-lg-3" style="">
+            <p style="font-size: 35px; color: #fff " class="footerProduct">Contact Us </p>
 
-            <p style="font-size: 17px; font-weight: 900;">
-
-            <p style="font-size: 15px; font-weight: 900;"><i class="fa-solid fa-envelope"></i> levana@gmail.com</p>
-            <p style="font-size: 15px; font-weight: 900;"><i class="fa-solid fa-phone"></i> +1 205 775 6048</p>
-            <p style="font-size: 15px; font-weight: 900;"> <span style="margin-right: 1px;">Resist: </span><i
-                class="fa-solid fa-location-dot"></i> 1942 Broadway St. STE 314C , Boulder ,
-              CO , 80302 , US </p>
-            <p style="font-size: 15px; font-weight: 900;"> <span style="margin-right: 1px;">branch: </span><i
-                class="fa-solid fa-location-dot"></i> Đ. Nguyễn Văn Huyên, Quan Hoa, Cầu Giấy, Hà Nội, Việt Nam </p><br />
-
+            <p style="font-size: 17px; font-weight: 900; ">
+            <p style="color: #c0c0c0;"><i style="font-size: 15px; font-weight: 900; " class="fa-solid fa-envelope"></i> levana@gmail.com</p>
+            <p style="color: #c0c0c0;"><i style="font-size: 15px; font-weight: 900; " class="fa-solid fa-phone"></i> +1 205 775 6048</p>
+            
+            <p style="color: #c0c0c0;"> <span style="margin-right: 1px;font-size: 15px; font-weight: 900; ">Address 2: </span> &nbsp; <i
+                class="fa-solid fa-location-dot"></i> </p><br />
             </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <div class="row">
-              <h4 style="font-size: 35px; ">Follow us </h4>
+              <h4 style="font-size: 35px;  color: #fff" class="footerProduct">News & Socials </h4>
             </div>
             <div class="row">
               <ul class="social-menu social-links">
@@ -2135,69 +2210,18 @@
                 </li>
               </ul>
             </div>
-          </div>
-
-
-
-          <!-- <div class="col-lg-6">
-            <div class="row" style="display: flex; text-align: center; width: 100%; margin-top: 20px;">
-              <h2 style=" color: #000000; width: 100%;" data-i18n="title.Contact">Contact Us </h2>
-            </div>
-            <div class="" style="margin-left: 10%; margin-right: 10%;">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                    data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required"
-                    data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been . Thank you!</div>
-                </div>
-                <div class="text-center" style="display: flex; justify-content: center;">
-                  <a href="https://www.facebook.com/lonely.boy27" target="_blank">
-
-                    <button class="contactButton" type="submit">
-                      <span style="    min-width: 164px;  
-                      font-weight: 600px !important;  " data-i18n="title.SendMessage"> Send Message </span>
-                      <div class="iconButton">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                          <path fill="none" d="M0 0h24v24H0z"></path>
-                          <path fill="currentColor"
-                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
-                          </path>
-                        </svg>
-                      </div>
-                    </button>
-
-                  </a>
-                </div>
-              </form>
-            </div>
           </div> -->
 
-        </div>
 
 
-      </div>
-    </section>
 
-    <!-- End Contact Us Section -->
+  </div>
+
+
+  </div>
+  </section>
+
+  <!-- End Contact Us Section -->
 
 
   </footer>

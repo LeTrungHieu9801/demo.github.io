@@ -12,7 +12,8 @@
         "ContactUs": "Liên hệ với chúng tôi",
         "Label": "Dịch vụ Label",
         "title": "Âm nhạc, quản lý, đổi mới và công nghệ",
-        "subtitle": "Chúng tôi là sự lựa chọn linh hoạt cho nhu cầu của bạn!"
+        "subtitle": "Chúng tôi là sự lựa chọn linh hoạt cho nhu cầu của bạn!",
+        "FeaturedArtists": "Nghệ sĩ nổi bật"
     },
     "title": {
         "MusicDistribution": "Phân phối âm nhạc",
@@ -35,7 +36,8 @@
     "OurTeam":{
         "our": "Đội ngũ của",
         "team": "Chúng tôi",
-        "name1": "",
+        "name1": "Ngô Thế Tuấn",
+        "jobTitle1": "Tổng Giám Đốc",
         "desc1": "",
         "name2": "",
         "desc2": "",
