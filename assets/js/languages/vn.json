@@ -26,7 +26,8 @@
         "CryptoVentures": "Dự án Crypto",
         "WhyUs": "Tại sao chọn chúng tôi",
         "Contact": "Liên hệ với chúng tôi",
-        "700": "Những đối tác kinh doanh đáng tin cậy của chúng tôi",
+        "700": "Đối tác kinh doanh ",
+        "7001": " đáng tin cậy của chúng tôi",
         "ContactNow": "Liên hệ ngay",
         "SendMessage": "Gửi tin nhắn",
         "OurTeam": "Đội ngũ của chúng tôi"
@@ -118,7 +119,8 @@
         
     },
     "recommend": {
-        "title": "Phản hồi từ khách hàng",
+        "title": "Phản hồi từ",
+        "title1": " khách hàng",
         "desc": "Ông Nam và ông Rooney đã thấy sự tăng trưởng về số lượng khách hàng và doanh thu bằng cách sử dụng các dịch vụ của Xnight Group. Còn bạn thì sao?",
         "name1": "Littleton - Tổng Giám Đốc ",
         "desc1": " \" Xnight Group là một đối tác linh hoạt và chu đáo. Đội ngũ linh hoạt và đáng tin cậy, họ nhanh chóng thích nghi với phong cách làm việc của khách hàng và có khả năng mở rộng khi cần. Họ vượt qua và cung cấp những điều hứa hẹn và đưa ra các đề xuất có giá trị. \" ",

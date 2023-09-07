@@ -26,7 +26,8 @@
         "CryptoVentures": "Crypto ventures",
         "WhyUs": "Why Us",
         "Contact": "Contact Us",
-        "700": "Our trusted business partners",
+        "700": "Our trusted ",
+        "7001": " business partners",
         "ContactNow": " Contact Now",
         "SendMessage": "Send Message",
         "OurTeam": "Our Team"
@@ -119,7 +120,8 @@
         
     },
     "recommend":{
-        "title": "Hear From Our Customers",
+        "title": "Hear From Our",
+        "title1": " Customers",
         "desc": "Mr. Nam and Mr. Rooney have witnessed growth in both customer numbers and revenue by utilizing services provided by Xnight Group. What about you?",
         "name1": "Littleton - General Director",
         "desc1": "\"  Xnight Group’ is an accommodating and attentive partner. Flexible and reliable, the team is quick to adapt to the client's working style and is able to scale as needed. They go above and beyond to deliver on their promises and provide valuable recommendations. \"",

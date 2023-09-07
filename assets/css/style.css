@@ -27,6 +27,7 @@ body {
 }
 
 
+
 /* font---bg */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
@@ -493,7 +494,7 @@ ul[role="list"]>li {
 
 .section-plans {
   background-color: #000;
-  padding: 4rem 0 4rem 0;
+
 }
 
 .card9 {
@@ -753,7 +754,6 @@ ul[role="list"]>li {
 
 .font_title {
   color: #fff;
-  padding-top: 30px;
   font-size: 70px;
   font-family: Graphik, sans-serif;
   font-weight: 500;
@@ -1564,7 +1564,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .section-bg,
@@ -1725,7 +1725,7 @@ section {
 --------------------------------------------------------------*/
 .call-to-action {
   background-size: cover;
-  padding: 120px 0 20px 0;
+  padding: 100px 0 20px 0;
 }
 
 .call-to-action h3 {
@@ -2201,9 +2201,7 @@ section {
 }
 
 footer {
-  text-align: center;
   padding: 60px 12px;
-  text-align: center;
   padding: 60px 12px;
   color: #fff;
   background-color: #b26b0d !important;
@@ -3383,10 +3381,7 @@ icons
 
 /* Phần Block ventures */
 .section-3 {
-  padding: 30px 0px 0px 0px;
   font-size: 24px;
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
 }
 
 .border-youtubeMCN {
@@ -3959,7 +3954,6 @@ icons
   position: relative;
   min-height: 70vh;
   column-gap: 3rem;
-  padding-block: min(20vh, 3rem);
   padding-inline: 2.3em;
   align-items: center;
   justify-content: center;
