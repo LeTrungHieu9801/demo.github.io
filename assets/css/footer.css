@@ -28,7 +28,7 @@ ul {
 }
 .cta-text span {
   color: #757575;
-  font-size: 15px;
+  font-size: 14px;
 }
 .footer-content {
   position: relative;
@@ -111,6 +111,7 @@ ul {
 .footer-widget ul li a {
   color: #878787;
   text-transform: capitalize;
+  font-size: 14px;
 }
 .subscribe-form {
   position: relative;
