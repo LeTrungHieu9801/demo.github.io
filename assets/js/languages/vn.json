@@ -33,7 +33,7 @@
         "SendMessage": "Gửi tin nhắn",
         "OurTeam": "Đội ngũ của chúng tôi",
         "textFooter": "Đừng bỏ lỡ việc đăng ký các thông tin mới của chúng tôi.",
-        "footerFind": "Địa chỉ của  chúng tôi",
+        "footerFind": "Địa chỉ của chúng tôi",
         "footerCall": "Gọi cho chúng tôi",
         "footMail": "Mail của chúng tôi",
         "footUseful": "Các liên kết tham khảo"
@@ -47,7 +47,7 @@
         "name2": "Phạm Minh Quân",
         "jobTitle2": "Developer  Engineer",
         "desc2": "Chúng tôi rất tự hào giới thiệu đến bạn một thành viên quan trọng của đội ngũ phát triển của chúng tôi - Đây là Phạm Minh Quân. Với kinh nghiệm và sự đam mê trong lĩnh vực công nghệ thông tin, anh ấy đã đóng góp một phần quan trọng vào sự phát triển và thành công của chúng tôi. Với khả năng tư duy logic và kỹ năng kỹ thuật xuất sắc, anh ấy luôn tìm kiếm cách để tạo ra các giải pháp đột phá và đảm bảo rằng sản phẩm của chúng tôi luôn ở đẳng cấp hàng đầu. ",
-        "name3": "Tom Divine",
+        "name3": "Nguyễn Mạnh Tuấn",
         "jobTitle3": "Phó Giám đốc Quan hệ Nhà đầu tư",
         "desc3": "Tom đã làm việc trong lĩnh vực tài chính doanh nghiệp được vài năm trước khi gia nhập Xingt với tư cách là Phó Giám đốc Quan hệ Nhà đầu tư. Ông cũng có nhiều kinh nghiệm về chính sách, đã trải qua 4 năm đảm nhiệm nhiều vai trò khác nhau tại Hạ viện Hoa Kỳ. Ông tốt nghiệp Đại học Texas ở Austin và có bằng MBA của Đại học Rice.",
         "name4": "Davis Zapffe",
@@ -149,7 +149,7 @@
         "desc1": " \" Xnight Group là một đối tác linh hoạt và chu đáo. Đội ngũ linh hoạt và đáng tin cậy, họ nhanh chóng thích nghi với phong cách làm việc của khách hàng và có khả năng mở rộng khi cần. Họ vượt qua và cung cấp những điều hứa hẹn và đưa ra các đề xuất có giá trị. \" ",
         "name2": "Agazeta - Tổng Giám Đốc ",
         "desc2": " \" Xnight Group đã hợp tác một cách rất tích cực trong suốt quá trình phát triển. Họ đã tuân theo các thời hạn đã được định trước. Tổng quan, khách hàng đánh giá cao tính chuyên nghiệp, trực tiếp và tập trung vào mục tiêu của họ, luôn đảm bảo tính đúng hẹn và chất lượng cao \"",
-        "name3": "Bruno Guez - Founder & CEO",
+        "name3": "Nghệ sĩ",
         "desc3": " \" Đội ngũ của Xinght Group đáp ứng thành công các yêu cầu và sản phẩm cần cung cấp. Phong cách làm việc hợp tác và tài năng chất lượng cao của họ đã nhận được phản hồi tích cực từ phía khách hàng; sự hiểu biết của họ về dự án đã thực sự ấn tượng. Ngoài ra, họ phản hồi nhanh chóng và linh hoạt. \""
     },
     "Label": {
