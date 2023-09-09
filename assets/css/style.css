@@ -30,11 +30,26 @@ user-select: none!important; */
 
 }
 
-.member:hover
+.headshots4:hover
 {
-width: 300px;
-color: orange;
+  background-image: url(../img/our_team/22/2.png) !important;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
+
+.headshots3:hover
+{
+  background-image: url(https://assets.website-files.com/6192808c25837d3716982433/61baefe631e81a954e7abe6b_davis-zapffe-hover.png) !important;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+.headshots2:hover
+{
+  background-image: url(../img/our_team/QUAN/2.png) !important;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+.headshots1:hover
+{
+  background-image: url(../img/our_team/TAN/2.png) !important;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
 
 .svg-container {
   transform: scale(1.6);
@@ -2100,7 +2115,7 @@ section {
 --------------------------------------------------------------*/
 .team .member {
   text-align: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
   background: #fff;
