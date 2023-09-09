@@ -20,7 +20,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --bs-primary1: #f9892e !important;
 
-  /* -moz-user-select: none !important;
+  /*-moz-user-select: none !important;
 -webkit-touch-callout: none!important;
 -webkit-user-select: none!important;
 -khtml-user-select: none!important;
@@ -30,12 +30,16 @@ user-select: none!important; */
 
 }
 
+.member:hover
+{
+width: 300px;
+color: orange;
+}
+
 .svg-container {
   transform: scale(1.6);
   transform-origin: center;
 }
-
-
 
 /* font---bg */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
@@ -3463,7 +3467,7 @@ icons
   -webkit-animation: scroll 30s linear infinite;
   animation: scroll 25s linear infinite;
   display: flex;
-  width: calc(250px * 13);
+  width: calc(250px * 7);
 }
 
 
